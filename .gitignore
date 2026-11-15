@@ -1,0 +1,17 @@
+# Data is large and belongs to Kaggle
+data/
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and environments
+.env
+.venv/
+venv/
+
+# Big model files
+*.pt
+*.pth
+models/

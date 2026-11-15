@@ -1,0 +1,5 @@
+model,PR-AUC,ROC-AUC,recall@prec50,recall@prec80
+Logistic Regression,0.3989,0.8449,0.3514,0.187
+Random Forest,0.4566,0.8764,0.4106,0.26
+XGBoost,0.5656,0.9086,0.544,0.3866
+LightGBM,0.6609,0.9241,0.6703,0.5161
