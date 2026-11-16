@@ -78,9 +78,12 @@ def build_graph(splits):
     data["transaction"].x = torch.tensor(X.values)
     data["transaction"].cat = torch.tensor(np.stack(cat_ids, axis=1), dtype=torch.long)
     data["transaction"].cat_sizes = torch.tensor(cat_sizes)
+    data["transaction"].tx_id = torch.tensor(d["TransactionID"].values, dtype=torch.long)
     data["transaction"].y = torch.tensor(d["isFraud"].values, dtype=torch.long)
     data["transaction"].train_mask = torch.tensor(is_train)
     data["transaction"].val_mask = torch.tensor((d["split"] == "val").values)
+    data.feature_names = list(X.columns)     # names of the number columns, in order
+    data.cat_names = list(cat_cols)          # names of the category columns, in order
     data["card"].num_nodes = len(card_names)
     data["device"].num_nodes = len(dev_names)
     data["transaction", "uses", "card"].edge_index = torch.tensor(
