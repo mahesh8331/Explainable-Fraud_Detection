@@ -12,6 +12,9 @@ EVAL_EVERY = 5    # check the validation score every this many epochs
 PATIENCE = 6        # stop if no improvement after this many checks
 LR = 0.01
 
+USE_GRAPH = False   # False = control experiment (graph switched off)
+TAG = "gnn" if USE_GRAPH else "gnn_nograph"
+
 torch.manual_seed(42)
 
 print("Building graphs (this takes a minute or two)...")
@@ -24,7 +27,7 @@ y_train = g_train["transaction"].y
 pos_weight = ((y_train == 0).sum() / (y_train == 1).sum()).float()
 print("Fraud weight:", round(float(pos_weight), 1))
 
-model = FraudGNN(in_dim=g_train["transaction"].x.shape[1])
+model = FraudGNN(in_dim=g_train["transaction"].x.shape[1], use_graph=USE_GRAPH)
 optimizer = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=1e-5)
 
 val_mask = g_eval["transaction"].val_mask
@@ -59,7 +62,8 @@ for epoch in range(1, EPOCHS + 1):
         msg += f" | val PR-AUC {pr:.4f}"
         if pr > best:
             best, checks_without_gain = pr, 0
-            torch.save(model.state_dict(), "models/gnn_best.pt")
+            torch.save(model.state_dict(), f"models/{TAG}_best.pt")
+
         else:
             checks_without_gain += 1
     print(msg + f" | {time.time() - t0:.1f}s", flush=True)
@@ -67,14 +71,14 @@ for epoch in range(1, EPOCHS + 1):
         print("No improvement for a while, stopping early.")
         break
 
-model.load_state_dict(torch.load("models/gnn_best.pt", weights_only=True))
+model.load_state_dict(torch.load(f"models/{TAG}_best.pt", weights_only=True))
 scores = val_scores()
 result = pd.DataFrame([{
-    "model": "GNN (card + device graph)",
+    "model": "GNN (card + device graph)" if USE_GRAPH else "Same model, graph switched off",
     "PR-AUC": average_precision_score(y_val, scores),
     "ROC-AUC": roc_auc_score(y_val, scores),
     "recall@prec50": recall_at_precision(y_val, scores, 0.50),
     "recall@prec80": recall_at_precision(y_val, scores, 0.80),
 }]).round(4)
-result.to_csv("results/gnn_results.csv", index=False)
+result.to_csv(f"results/{TAG}_results.csv", index=False)
 print("\n", result.to_string(index=False))

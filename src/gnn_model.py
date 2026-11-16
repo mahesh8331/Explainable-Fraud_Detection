@@ -5,8 +5,9 @@ from torch_geometric.nn import HeteroConv, SAGEConv, Linear
 
 
 class FraudGNN(nn.Module):
-    def __init__(self, in_dim, hidden=64):
+    def __init__(self, in_dim, hidden=64, use_graph=True):
         super().__init__()
+        self.use_graph = use_graph
         self.tx_in = Linear(in_dim, hidden)
         self.conv1 = HeteroConv({
             ("transaction", "uses", "card"): SAGEConv((hidden, hidden), hidden),
@@ -21,6 +22,10 @@ class FraudGNN(nn.Module):
     def forward(self, data):
         # Step 1: summarise each transaction
         h_tx = F.relu(self.tx_in(data["transaction"].x))
+        if not self.use_graph:
+            # Control experiment: skip the graph, use only each transaction's own summary
+            return self.out(torch.cat([h_tx, torch.zeros_like(h_tx)], dim=1)).squeeze(-1)
+
 
         # Cards and devices start empty (they have no notes of their own)
         start = {

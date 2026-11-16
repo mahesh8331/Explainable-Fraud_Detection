@@ -1,0 +1,2 @@
+model,PR-AUC,ROC-AUC,recall@prec50,recall@prec80
+"Same model, graph switched off",0.441,0.8571,0.3849,0.2485
