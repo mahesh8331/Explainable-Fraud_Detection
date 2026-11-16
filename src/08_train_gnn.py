@@ -12,7 +12,7 @@ EVAL_EVERY = 5    # check the validation score every this many epochs
 PATIENCE = 6        # stop if no improvement after this many checks
 LR = 0.01
 
-USE_GRAPH = False   # False = control experiment (graph switched off)
+USE_GRAPH = True   # False = control experiment (graph switched off)
 TAG = "gnn" if USE_GRAPH else "gnn_nograph"
 
 torch.manual_seed(42)
