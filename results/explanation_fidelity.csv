@@ -1,0 +1,4 @@
+method,score kept with only top 10 features (% of original),score drop when top 10 removed (% of original)
+gnnexplainer,36.8,18.8
+leave_one_out,47.8,25.9
+random,18.5,1.3

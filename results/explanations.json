@@ -1,0 +1,7019 @@
+[
+  {
+    "TransactionID": 3445118,
+    "score": 16.746,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4,
+      "labelled_payments": 2,
+      "known_frauds": 0
+    },
+    "device": {
+      "other_payments": 164,
+      "labelled_payments": 115,
+      "known_frauds": 28
+    },
+    "score_from_connections": 8.474,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 13.076,
+      "Identity columns": 0.61,
+      "How often the card/address was seen": -0.464,
+      "Amount": -0.253,
+      "C columns (counts)": 0.182,
+      "Card and address columns": 0.092,
+      "D columns (time gaps)": 0.004
+    },
+    "category_effect_top5": [
+      {
+        "column": "DeviceInfo",
+        "effect": -1.655
+      },
+      {
+        "column": "id_31",
+        "effect": 0.344
+      },
+      {
+        "column": "M4",
+        "effect": 0.337
+      },
+      {
+        "column": "id_15",
+        "effect": -0.261
+      },
+      {
+        "column": "id_28",
+        "effect": -0.258
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V35",
+        "z_value": -1.34,
+        "importance": 0.8178
+      },
+      {
+        "feature": "V34",
+        "z_value": 2.582,
+        "importance": 0.8114
+      },
+      {
+        "feature": "V243",
+        "z_value": 21.529,
+        "importance": 0.8097
+      },
+      {
+        "feature": "V303",
+        "z_value": 1.201,
+        "importance": 0.8083
+      },
+      {
+        "feature": "V70",
+        "z_value": -0.648,
+        "importance": 0.8069
+      },
+      {
+        "feature": "addr1_count",
+        "z_value": -2.634,
+        "importance": 0.8064
+      },
+      {
+        "feature": "V258",
+        "z_value": 20.294,
+        "importance": 0.8054
+      },
+      {
+        "feature": "card3",
+        "z_value": 2.739,
+        "importance": 0.8054
+      },
+      {
+        "feature": "V229",
+        "z_value": 9.764,
+        "importance": 0.8046
+      },
+      {
+        "feature": "V262",
+        "z_value": 3.143,
+        "importance": 0.8038
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V259",
+        "z_value": 16.667,
+        "importance": 4.2184
+      },
+      {
+        "feature": "V221",
+        "z_value": 13.526,
+        "importance": -2.2655
+      },
+      {
+        "feature": "V258",
+        "z_value": 20.294,
+        "importance": 2.175
+      },
+      {
+        "feature": "V220",
+        "z_value": 35.336,
+        "importance": -1.9324
+      },
+      {
+        "feature": "V222",
+        "z_value": 14.741,
+        "importance": 1.477
+      },
+      {
+        "feature": "V243",
+        "z_value": 21.529,
+        "importance": 1.3833
+      },
+      {
+        "feature": "V232",
+        "z_value": 19.878,
+        "importance": 1.1868
+      },
+      {
+        "feature": "V245",
+        "z_value": 17.033,
+        "importance": 1.0783
+      },
+      {
+        "feature": "V219",
+        "z_value": 16.055,
+        "importance": -0.7496
+      },
+      {
+        "feature": "card1_count",
+        "z_value": -2.334,
+        "importance": -0.7227
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3445827,
+        "mask": 0.7254,
+        "label": null
+      },
+      {
+        "TransactionID": 3460732,
+        "mask": 0.7155,
+        "label": null
+      },
+      {
+        "TransactionID": 3333870,
+        "mask": 0.0583,
+        "label": 0
+      },
+      {
+        "TransactionID": 3269701,
+        "mask": 0.0133,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3445217,
+    "score": 12.917,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 0,
+      "labelled_payments": 0,
+      "known_frauds": 0
+    },
+    "device": {
+      "other_payments": 164,
+      "labelled_payments": 115,
+      "known_frauds": 28
+    },
+    "score_from_connections": 3.818,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 16.731,
+      "Amount": -0.459,
+      "How often the card/address was seen": 0.338,
+      "C columns (counts)": 0.097,
+      "Identity columns": -0.094,
+      "D columns (time gaps)": 0.057,
+      "Card and address columns": 0.042
+    },
+    "category_effect_top5": [
+      {
+        "column": "DeviceInfo",
+        "effect": -1.975
+      },
+      {
+        "column": "id_31",
+        "effect": 1.13
+      },
+      {
+        "column": "id_38",
+        "effect": 0.572
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": -0.493
+      },
+      {
+        "column": "M4",
+        "effect": 0.351
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "id_19",
+        "z_value": -2.675,
+        "importance": 0.8053
+      },
+      {
+        "feature": "V188",
+        "z_value": 3.663,
+        "importance": 0.7754
+      },
+      {
+        "feature": "V44",
+        "z_value": 12.559,
+        "importance": 0.753
+      },
+      {
+        "feature": "V189",
+        "z_value": 2.932,
+        "importance": 0.7502
+      },
+      {
+        "feature": "V179",
+        "z_value": 4.945,
+        "importance": 0.7495
+      },
+      {
+        "feature": "V199",
+        "z_value": 7.853,
+        "importance": 0.746
+      },
+      {
+        "feature": "V23",
+        "z_value": 12.62,
+        "importance": 0.7445
+      },
+      {
+        "feature": "V244",
+        "z_value": 9.189,
+        "importance": 0.7407
+      },
+      {
+        "feature": "V246",
+        "z_value": 8.058,
+        "importance": 0.7375
+      },
+      {
+        "feature": "V248",
+        "z_value": 2.019,
+        "importance": 0.7374
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V259",
+        "z_value": 16.667,
+        "importance": 5.5846
+      },
+      {
+        "feature": "V86",
+        "z_value": 17.822,
+        "importance": -4.6111
+      },
+      {
+        "feature": "V258",
+        "z_value": 27.085,
+        "importance": 4.474
+      },
+      {
+        "feature": "V221",
+        "z_value": 13.526,
+        "importance": -3.4623
+      },
+      {
+        "feature": "V87",
+        "z_value": 14.872,
+        "importance": -3.0541
+      },
+      {
+        "feature": "V220",
+        "z_value": 35.336,
+        "importance": -2.9534
+      },
+      {
+        "feature": "V24",
+        "z_value": 10.235,
+        "importance": -2.9152
+      },
+      {
+        "feature": "V233",
+        "z_value": 33.39,
+        "importance": -2.7278
+      },
+      {
+        "feature": "V243",
+        "z_value": 21.529,
+        "importance": 2.5967
+      },
+      {
+        "feature": "V231",
+        "z_value": 12.732,
+        "importance": -2.3623
+      }
+    ],
+    "top_card_links_gnnexplainer": []
+  },
+  {
+    "TransactionID": 3427572,
+    "score": 12.915,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 135,
+      "labelled_payments": 104,
+      "known_frauds": 28
+    },
+    "device": {
+      "other_payments": 190,
+      "labelled_payments": 158,
+      "known_frauds": 129
+    },
+    "score_from_connections": 4.181,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 7.749,
+      "D columns (time gaps)": 1.465,
+      "C columns (counts)": 0.926,
+      "Card and address columns": 0.319,
+      "How often the card/address was seen": 0.272,
+      "Amount": -0.178,
+      "Identity columns": 0.165
+    },
+    "category_effect_top5": [
+      {
+        "column": "P_emaildomain",
+        "effect": -0.412
+      },
+      {
+        "column": "id_15",
+        "effect": -0.298
+      },
+      {
+        "column": "dayofweek",
+        "effect": -0.288
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": -0.275
+      },
+      {
+        "column": "hour",
+        "effect": 0.227
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V119",
+        "z_value": 32.583,
+        "importance": 0.7889
+      },
+      {
+        "feature": "V200",
+        "z_value": 7.333,
+        "importance": 0.7798
+      },
+      {
+        "feature": "V234_missing",
+        "z_value": 1.0,
+        "importance": 0.778
+      },
+      {
+        "feature": "V43_missing",
+        "z_value": 1.0,
+        "importance": 0.7775
+      },
+      {
+        "feature": "V270_missing",
+        "z_value": 1.0,
+        "importance": 0.7746
+      },
+      {
+        "feature": "D14",
+        "z_value": 1.83,
+        "importance": 0.7721
+      },
+      {
+        "feature": "V89_missing",
+        "z_value": 1.0,
+        "importance": 0.7702
+      },
+      {
+        "feature": "V167_missing",
+        "z_value": 1.0,
+        "importance": 0.7674
+      },
+      {
+        "feature": "V62_missing",
+        "z_value": 1.0,
+        "importance": 0.7592
+      },
+      {
+        "feature": "V147_missing",
+        "z_value": 1.0,
+        "importance": 0.7588
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V110",
+        "z_value": 21.563,
+        "importance": -3.4034
+      },
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -3.1699
+      },
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 2.3657
+      },
+      {
+        "feature": "V114",
+        "z_value": 19.263,
+        "importance": -1.9684
+      },
+      {
+        "feature": "V109",
+        "z_value": 16.401,
+        "importance": -1.6162
+      },
+      {
+        "feature": "V112",
+        "z_value": 23.46,
+        "importance": 1.4789
+      },
+      {
+        "feature": "V116",
+        "z_value": 15.732,
+        "importance": -1.292
+      },
+      {
+        "feature": "V111",
+        "z_value": 28.171,
+        "importance": 0.9168
+      },
+      {
+        "feature": "V113",
+        "z_value": 26.537,
+        "importance": -0.8071
+      },
+      {
+        "feature": "V194",
+        "z_value": 6.893,
+        "importance": -0.6979
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3402088,
+        "mask": 0.0144,
+        "label": null
+      },
+      {
+        "TransactionID": 3441015,
+        "mask": 0.0143,
+        "label": null
+      },
+      {
+        "TransactionID": 3290481,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 3424992,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3338445,
+        "mask": 0.0137,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3434608,
+    "score": 12.601,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 776,
+      "labelled_payments": 639,
+      "known_frauds": 186
+    },
+    "device": null,
+    "score_from_connections": 1.81,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 10.587,
+      "D columns (time gaps)": 0.691,
+      "Amount": -0.416,
+      "Card and address columns": 0.349,
+      "Identity columns": -0.183,
+      "How often the card/address was seen": 0.145,
+      "C columns (counts)": 0.086
+    },
+    "category_effect_top5": [
+      {
+        "column": "DeviceInfo",
+        "effect": -0.86
+      },
+      {
+        "column": "card4",
+        "effect": 0.793
+      },
+      {
+        "column": "id_31",
+        "effect": 0.408
+      },
+      {
+        "column": "id_15",
+        "effect": -0.403
+      },
+      {
+        "column": "dayofweek",
+        "effect": 0.365
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V328_missing",
+        "z_value": 1.0,
+        "importance": 0.7715
+      },
+      {
+        "feature": "V192",
+        "z_value": 0.632,
+        "importance": 0.7551
+      },
+      {
+        "feature": "card2",
+        "z_value": -1.189,
+        "importance": 0.7546
+      },
+      {
+        "feature": "V331_missing",
+        "z_value": 1.0,
+        "importance": 0.7545
+      },
+      {
+        "feature": "V18",
+        "z_value": 2.468,
+        "importance": 0.7522
+      },
+      {
+        "feature": "V319",
+        "z_value": -0.059,
+        "importance": 0.7487
+      },
+      {
+        "feature": "V142_missing",
+        "z_value": 1.0,
+        "importance": 0.7449
+      },
+      {
+        "feature": "V165_missing",
+        "z_value": 1.0,
+        "importance": 0.7414
+      },
+      {
+        "feature": "V279",
+        "z_value": -0.266,
+        "importance": 0.7403
+      },
+      {
+        "feature": "V323_missing",
+        "z_value": 1.0,
+        "importance": 0.7397
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V188",
+        "z_value": 14.673,
+        "importance": -1.1134
+      },
+      {
+        "feature": "V189",
+        "z_value": 11.792,
+        "importance": 1.0966
+      },
+      {
+        "feature": "V231",
+        "z_value": 5.025,
+        "importance": -0.9726
+      },
+      {
+        "feature": "V83",
+        "z_value": 2.584,
+        "importance": 0.8748
+      },
+      {
+        "feature": "V244",
+        "z_value": 12.28,
+        "importance": -0.8574
+      },
+      {
+        "feature": "V195",
+        "z_value": 5.825,
+        "importance": -0.7619
+      },
+      {
+        "feature": "V217",
+        "z_value": 4.082,
+        "importance": -0.7231
+      },
+      {
+        "feature": "V228",
+        "z_value": 5.751,
+        "importance": -0.7093
+      },
+      {
+        "feature": "V194",
+        "z_value": 6.893,
+        "importance": -0.667
+      },
+      {
+        "feature": "V259",
+        "z_value": 3.513,
+        "importance": 0.6642
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3287582,
+        "mask": 0.0143,
+        "label": 1
+      },
+      {
+        "TransactionID": 3196966,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3351125,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3086948,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3345757,
+        "mask": 0.0141,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3416713,
+    "score": 11.972,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1390,
+      "labelled_payments": 1131,
+      "known_frauds": 40
+    },
+    "device": null,
+    "score_from_connections": 0.499,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 9.556,
+      "Amount": 0.934,
+      "D columns (time gaps)": 0.918,
+      "Identity columns": -0.576,
+      "Card and address columns": 0.529,
+      "C columns (counts)": 0.184,
+      "How often the card/address was seen": 0.091
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.812
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": 0.78
+      },
+      {
+        "column": "id_28",
+        "effect": -0.461
+      },
+      {
+        "column": "id_15",
+        "effect": -0.404
+      },
+      {
+        "column": "id_30",
+        "effect": -0.365
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V193",
+        "z_value": 0.986,
+        "importance": 0.8476
+      },
+      {
+        "feature": "id_02",
+        "z_value": 0.125,
+        "importance": 0.7838
+      },
+      {
+        "feature": "V302",
+        "z_value": 1.512,
+        "importance": 0.7727
+      },
+      {
+        "feature": "V2",
+        "z_value": -0.12,
+        "importance": 0.7638
+      },
+      {
+        "feature": "V185",
+        "z_value": 3.198,
+        "importance": 0.7572
+      },
+      {
+        "feature": "V254",
+        "z_value": 2.631,
+        "importance": 0.757
+      },
+      {
+        "feature": "V248",
+        "z_value": 2.019,
+        "importance": 0.7566
+      },
+      {
+        "feature": "V303",
+        "z_value": 1.201,
+        "importance": 0.7551
+      },
+      {
+        "feature": "V106",
+        "z_value": -0.163,
+        "importance": 0.7493
+      },
+      {
+        "feature": "V253",
+        "z_value": 1.46,
+        "importance": 0.749
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V189",
+        "z_value": 5.885,
+        "importance": 1.2807
+      },
+      {
+        "feature": "V195",
+        "z_value": 5.825,
+        "importance": -1.2231
+      },
+      {
+        "feature": "V194",
+        "z_value": 6.893,
+        "importance": -1.0094
+      },
+      {
+        "feature": "V238",
+        "z_value": 10.394,
+        "importance": -0.988
+      },
+      {
+        "feature": "V236",
+        "z_value": 7.006,
+        "importance": 0.9675
+      },
+      {
+        "feature": "TransactionAmt",
+        "z_value": 1.415,
+        "importance": 0.9338
+      },
+      {
+        "feature": "V247",
+        "z_value": 8.106,
+        "importance": 0.84
+      },
+      {
+        "feature": "V147",
+        "z_value": 3.43,
+        "importance": 0.8115
+      },
+      {
+        "feature": "V235",
+        "z_value": 3.298,
+        "importance": -0.7872
+      },
+      {
+        "feature": "V146",
+        "z_value": 3.866,
+        "importance": -0.6766
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3338700,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3244755,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3394928,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3073706,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3219813,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3415211,
+    "score": 11.784,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1794,
+      "labelled_payments": 1419,
+      "known_frauds": 244
+    },
+    "device": null,
+    "score_from_connections": 1.033,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 9.109,
+      "Identity columns": 0.501,
+      "Card and address columns": 0.295,
+      "Amount": -0.254,
+      "How often the card/address was seen": 0.224,
+      "D columns (time gaps)": 0.217,
+      "C columns (counts)": 0.049
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.526
+      },
+      {
+        "column": "id_38",
+        "effect": 0.457
+      },
+      {
+        "column": "id_16",
+        "effect": 0.361
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": 0.262
+      },
+      {
+        "column": "id_15",
+        "effect": 0.258
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "id_20",
+        "z_value": 1.399,
+        "importance": 0.7992
+      },
+      {
+        "feature": "addr2",
+        "z_value": 0.076,
+        "importance": 0.7881
+      },
+      {
+        "feature": "V156",
+        "z_value": 0.14,
+        "importance": 0.7778
+      },
+      {
+        "feature": "V148",
+        "z_value": 0.16,
+        "importance": 0.7695
+      },
+      {
+        "feature": "V152",
+        "z_value": -0.157,
+        "importance": 0.7639
+      },
+      {
+        "feature": "D13",
+        "z_value": -0.081,
+        "importance": 0.7584
+      },
+      {
+        "feature": "V326_missing",
+        "z_value": 1.0,
+        "importance": 0.7549
+      },
+      {
+        "feature": "dist2",
+        "z_value": -0.095,
+        "importance": 0.7548
+      },
+      {
+        "feature": "V23",
+        "z_value": -0.127,
+        "importance": 0.7516
+      },
+      {
+        "feature": "id_10",
+        "z_value": 0.043,
+        "importance": 0.7506
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V44",
+        "z_value": 28.847,
+        "importance": 2.8852
+      },
+      {
+        "feature": "V45",
+        "z_value": 25.813,
+        "importance": 1.8181
+      },
+      {
+        "feature": "V46",
+        "z_value": 13.643,
+        "importance": -1.5835
+      },
+      {
+        "feature": "V67",
+        "z_value": 14.041,
+        "importance": 1.3458
+      },
+      {
+        "feature": "V66",
+        "z_value": 10.974,
+        "importance": -1.1153
+      },
+      {
+        "feature": "V38",
+        "z_value": 31.836,
+        "importance": -1.0002
+      },
+      {
+        "feature": "V62",
+        "z_value": 2.537,
+        "importance": 0.6903
+      },
+      {
+        "feature": "V303",
+        "z_value": 6.318,
+        "importance": 0.5951
+      },
+      {
+        "feature": "V37",
+        "z_value": 32.523,
+        "importance": -0.574
+      },
+      {
+        "feature": "V283",
+        "z_value": 1.889,
+        "importance": 0.4785
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3473301,
+        "mask": 0.0141,
+        "label": null
+      },
+      {
+        "TransactionID": 3427641,
+        "mask": 0.0141,
+        "label": null
+      },
+      {
+        "TransactionID": 3264916,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3396858,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 3372943,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3466030,
+    "score": 10.824,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 53,
+      "labelled_payments": 44,
+      "known_frauds": 8
+    },
+    "device": null,
+    "score_from_connections": 0.214,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 5.177,
+      "Identity columns": 1.431,
+      "D columns (time gaps)": 0.373,
+      "How often the card/address was seen": -0.294,
+      "Card and address columns": 0.256,
+      "C columns (counts)": 0.144,
+      "Amount": 0.033
+    },
+    "category_effect_top5": [
+      {
+        "column": "P_emaildomain",
+        "effect": -0.488
+      },
+      {
+        "column": "id_31",
+        "effect": 0.371
+      },
+      {
+        "column": "id_15",
+        "effect": -0.323
+      },
+      {
+        "column": "id_28",
+        "effect": -0.23
+      },
+      {
+        "column": "card4",
+        "effect": 0.221
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V67",
+        "z_value": 14.041,
+        "importance": 0.7963
+      },
+      {
+        "feature": "V85",
+        "z_value": 4.944,
+        "importance": 0.7881
+      },
+      {
+        "feature": "id_17",
+        "z_value": 2.96,
+        "importance": 0.7878
+      },
+      {
+        "feature": "V79",
+        "z_value": 5.47,
+        "importance": 0.7854
+      },
+      {
+        "feature": "V81",
+        "z_value": 4.449,
+        "importance": 0.7844
+      },
+      {
+        "feature": "D15",
+        "z_value": -0.74,
+        "importance": 0.7831
+      },
+      {
+        "feature": "V58",
+        "z_value": 8.392,
+        "importance": 0.78
+      },
+      {
+        "feature": "V64",
+        "z_value": 5.021,
+        "importance": 0.7785
+      },
+      {
+        "feature": "card_count",
+        "z_value": -1.035,
+        "importance": 0.777
+      },
+      {
+        "feature": "V72",
+        "z_value": 8.034,
+        "importance": 0.7737
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V67",
+        "z_value": 14.041,
+        "importance": 4.0062
+      },
+      {
+        "feature": "V62",
+        "z_value": 4.826,
+        "importance": 1.6394
+      },
+      {
+        "feature": "V83",
+        "z_value": 2.584,
+        "importance": 1.0032
+      },
+      {
+        "feature": "V73",
+        "z_value": 8.244,
+        "importance": -0.7829
+      },
+      {
+        "feature": "V71",
+        "z_value": 8.302,
+        "importance": -0.713
+      },
+      {
+        "feature": "V55",
+        "z_value": 5.28,
+        "importance": -0.5552
+      },
+      {
+        "feature": "V66",
+        "z_value": 10.974,
+        "importance": -0.4787
+      },
+      {
+        "feature": "id_03",
+        "z_value": 19.49,
+        "importance": 0.4417
+      },
+      {
+        "feature": "card1_count",
+        "z_value": -1.057,
+        "importance": -0.4088
+      },
+      {
+        "feature": "V281",
+        "z_value": 3.701,
+        "importance": -0.4007
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3488285,
+        "mask": 0.0132,
+        "label": null
+      },
+      {
+        "TransactionID": 3259220,
+        "mask": 0.0132,
+        "label": 0
+      },
+      {
+        "TransactionID": 2987710,
+        "mask": 0.0132,
+        "label": 0
+      },
+      {
+        "TransactionID": 3398222,
+        "mask": 0.0132,
+        "label": 0
+      },
+      {
+        "TransactionID": 3314878,
+        "mask": 0.0131,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3438306,
+    "score": 10.576,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 576,
+      "labelled_payments": 491,
+      "known_frauds": 11
+    },
+    "device": null,
+    "score_from_connections": 0.135,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 8.554,
+      "D columns (time gaps)": 0.366,
+      "Identity columns": 0.245,
+      "Amount": 0.205,
+      "Card and address columns": -0.155,
+      "C columns (counts)": 0.051,
+      "How often the card/address was seen": -0.006
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.514
+      },
+      {
+        "column": "hour",
+        "effect": 0.14
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.121
+      },
+      {
+        "column": "id_34",
+        "effect": -0.111
+      },
+      {
+        "column": "ProductCD",
+        "effect": -0.109
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V197",
+        "z_value": 11.983,
+        "importance": 0.7609
+      },
+      {
+        "feature": "V289",
+        "z_value": -0.386,
+        "importance": 0.748
+      },
+      {
+        "feature": "V279",
+        "z_value": -0.266,
+        "importance": 0.727
+      },
+      {
+        "feature": "V82",
+        "z_value": 0.331,
+        "importance": 0.722
+      },
+      {
+        "feature": "D11_missing",
+        "z_value": 1.0,
+        "importance": 0.7117
+      },
+      {
+        "feature": "id_02",
+        "z_value": -1.383,
+        "importance": 0.7097
+      },
+      {
+        "feature": "V246",
+        "z_value": 3.987,
+        "importance": 0.7089
+      },
+      {
+        "feature": "id_20",
+        "z_value": 1.191,
+        "importance": 0.7077
+      },
+      {
+        "feature": "V158",
+        "z_value": 7.321,
+        "importance": 0.7019
+      },
+      {
+        "feature": "V247",
+        "z_value": 16.258,
+        "importance": 0.7017
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V139",
+        "z_value": 3.724,
+        "importance": -1.0676
+      },
+      {
+        "feature": "V195",
+        "z_value": 11.586,
+        "importance": -1.047
+      },
+      {
+        "feature": "V247",
+        "z_value": 16.258,
+        "importance": 1.0263
+      },
+      {
+        "feature": "V156",
+        "z_value": 8.272,
+        "importance": 1.0128
+      },
+      {
+        "feature": "V147",
+        "z_value": 6.948,
+        "importance": 0.9768
+      },
+      {
+        "feature": "V149",
+        "z_value": 8.302,
+        "importance": 0.9109
+      },
+      {
+        "feature": "V194",
+        "z_value": 13.698,
+        "importance": -0.6768
+      },
+      {
+        "feature": "V158",
+        "z_value": 7.321,
+        "importance": 0.6166
+      },
+      {
+        "feature": "V154",
+        "z_value": 9.533,
+        "importance": 0.5534
+      },
+      {
+        "feature": "V235",
+        "z_value": 6.714,
+        "importance": -0.5488
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3051293,
+        "mask": 0.0143,
+        "label": 0
+      },
+      {
+        "TransactionID": 3199953,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3445418,
+        "mask": 0.0141,
+        "label": null
+      },
+      {
+        "TransactionID": 3376860,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3414862,
+        "mask": 0.014,
+        "label": null
+      }
+    ]
+  },
+  {
+    "TransactionID": 3408915,
+    "score": 10.493,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 786,
+      "labelled_payments": 641,
+      "known_frauds": 141
+    },
+    "device": null,
+    "score_from_connections": 0.887,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.139,
+      "C columns (counts)": 1.212,
+      "D columns (time gaps)": 0.326,
+      "Card and address columns": 0.325,
+      "How often the card/address was seen": 0.201,
+      "Identity columns": 0.143,
+      "Amount": 0.07
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.506
+      },
+      {
+        "column": "id_38",
+        "effect": 0.425
+      },
+      {
+        "column": "id_16",
+        "effect": 0.314
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.293
+      },
+      {
+        "column": "M4",
+        "effect": 0.224
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "id_20",
+        "z_value": -3.955,
+        "importance": 0.7184
+      },
+      {
+        "feature": "V83",
+        "z_value": 0.231,
+        "importance": 0.7126
+      },
+      {
+        "feature": "V70",
+        "z_value": -0.648,
+        "importance": 0.711
+      },
+      {
+        "feature": "V242",
+        "z_value": 12.898,
+        "importance": 0.7088
+      },
+      {
+        "feature": "V90",
+        "z_value": -0.668,
+        "importance": 0.7067
+      },
+      {
+        "feature": "V92",
+        "z_value": 2.432,
+        "importance": 0.7
+      },
+      {
+        "feature": "D5",
+        "z_value": -0.393,
+        "importance": 0.6997
+      },
+      {
+        "feature": "V18",
+        "z_value": 2.468,
+        "importance": 0.6932
+      },
+      {
+        "feature": "V81",
+        "z_value": 2.066,
+        "importance": 0.6931
+      },
+      {
+        "feature": "V202",
+        "z_value": 1.114,
+        "importance": 0.692
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V44",
+        "z_value": 7.129,
+        "importance": 0.9687
+      },
+      {
+        "feature": "V189",
+        "z_value": 11.792,
+        "importance": 0.9099
+      },
+      {
+        "feature": "V62",
+        "z_value": 2.537,
+        "importance": 0.6821
+      },
+      {
+        "feature": "V78",
+        "z_value": 6.075,
+        "importance": -0.6082
+      },
+      {
+        "feature": "V86",
+        "z_value": 10.124,
+        "importance": -0.6056
+      },
+      {
+        "feature": "V77",
+        "z_value": 7.853,
+        "importance": -0.5662
+      },
+      {
+        "feature": "V45",
+        "z_value": 6.349,
+        "importance": 0.5086
+      },
+      {
+        "feature": "C2",
+        "z_value": 3.265,
+        "importance": 0.5047
+      },
+      {
+        "feature": "V231",
+        "z_value": 5.025,
+        "importance": -0.4638
+      },
+      {
+        "feature": "V67",
+        "z_value": 4.672,
+        "importance": 0.4541
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3346866,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3428176,
+        "mask": 0.0141,
+        "label": null
+      },
+      {
+        "TransactionID": 3284875,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 3264737,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 3249029,
+        "mask": 0.014,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3464875,
+    "score": 10.305,
+    "probability": 1.0,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 776,
+      "labelled_payments": 639,
+      "known_frauds": 186
+    },
+    "device": {
+      "other_payments": 12,
+      "labelled_payments": 4,
+      "known_frauds": 4
+    },
+    "score_from_connections": 4.273,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 4.825,
+      "Identity columns": 1.029,
+      "Card and address columns": 0.762,
+      "D columns (time gaps)": 0.448,
+      "How often the card/address was seen": 0.301,
+      "C columns (counts)": 0.058,
+      "Amount": -0.051
+    },
+    "category_effect_top5": [
+      {
+        "column": "hour",
+        "effect": 0.573
+      },
+      {
+        "column": "id_38",
+        "effect": 0.481
+      },
+      {
+        "column": "M4",
+        "effect": 0.469
+      },
+      {
+        "column": "id_29",
+        "effect": 0.342
+      },
+      {
+        "column": "id_31",
+        "effect": 0.222
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "D12",
+        "z_value": 1.235,
+        "importance": 0.8843
+      },
+      {
+        "feature": "V154",
+        "z_value": 0.177,
+        "importance": 0.8816
+      },
+      {
+        "feature": "V23",
+        "z_value": 4.122,
+        "importance": 0.8796
+      },
+      {
+        "feature": "V61",
+        "z_value": 0.349,
+        "importance": 0.8788
+      },
+      {
+        "feature": "V148",
+        "z_value": 0.16,
+        "importance": 0.8763
+      },
+      {
+        "feature": "D6",
+        "z_value": 0.971,
+        "importance": 0.8746
+      },
+      {
+        "feature": "C13",
+        "z_value": -0.229,
+        "importance": 0.8737
+      },
+      {
+        "feature": "D9",
+        "z_value": -3.272,
+        "importance": 0.8715
+      },
+      {
+        "feature": "V40",
+        "z_value": 1.972,
+        "importance": 0.8714
+      },
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 0.8689
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -2.0712
+      },
+      {
+        "feature": "id_01",
+        "z_value": -5.713,
+        "importance": 1.243
+      },
+      {
+        "feature": "V87",
+        "z_value": 4.121,
+        "importance": 1.0257
+      },
+      {
+        "feature": "V119",
+        "z_value": 32.583,
+        "importance": -0.9993
+      },
+      {
+        "feature": "V44",
+        "z_value": 3.51,
+        "importance": 0.9756
+      },
+      {
+        "feature": "V45",
+        "z_value": 3.105,
+        "importance": 0.8433
+      },
+      {
+        "feature": "V86",
+        "z_value": 4.992,
+        "importance": 0.7988
+      },
+      {
+        "feature": "V178",
+        "z_value": 2.335,
+        "importance": 0.7488
+      },
+      {
+        "feature": "V194",
+        "z_value": -6.715,
+        "importance": 0.5998
+      },
+      {
+        "feature": "V247",
+        "z_value": 8.106,
+        "importance": 0.5939
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3079666,
+        "mask": 0.0143,
+        "label": 0
+      },
+      {
+        "TransactionID": 3061240,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3173768,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3201649,
+        "mask": 0.0142,
+        "label": 1
+      },
+      {
+        "TransactionID": 3358653,
+        "mask": 0.0142,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3405228,
+    "score": 9.814,
+    "probability": 0.9999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 36,
+      "labelled_payments": 32,
+      "known_frauds": 11
+    },
+    "device": null,
+    "score_from_connections": 1.239,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 4.251,
+      "Card and address columns": 0.309,
+      "D columns (time gaps)": 0.304,
+      "C columns (counts)": 0.201,
+      "Identity columns": -0.115,
+      "Amount": -0.007,
+      "How often the card/address was seen": 0.001
+    },
+    "category_effect_top5": [
+      {
+        "column": "card4",
+        "effect": 0.523
+      },
+      {
+        "column": "hour",
+        "effect": 0.366
+      },
+      {
+        "column": "id_31",
+        "effect": 0.33
+      },
+      {
+        "column": "id_38",
+        "effect": 0.205
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.123
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V125",
+        "z_value": 26.872,
+        "importance": 0.7119
+      },
+      {
+        "feature": "V124",
+        "z_value": 20.284,
+        "importance": 0.7089
+      },
+      {
+        "feature": "V112",
+        "z_value": 11.699,
+        "importance": 0.708
+      },
+      {
+        "feature": "V123",
+        "z_value": 30.927,
+        "importance": 0.704
+      },
+      {
+        "feature": "D14",
+        "z_value": 5.511,
+        "importance": 0.6998
+      },
+      {
+        "feature": "V45",
+        "z_value": 14.459,
+        "importance": 0.687
+      },
+      {
+        "feature": "V47",
+        "z_value": 4.751,
+        "importance": 0.6801
+      },
+      {
+        "feature": "V108",
+        "z_value": 12.773,
+        "importance": 0.6766
+      },
+      {
+        "feature": "V199",
+        "z_value": 7.853,
+        "importance": 0.6764
+      },
+      {
+        "feature": "card2",
+        "z_value": -1.195,
+        "importance": 0.6759
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V125",
+        "z_value": 26.872,
+        "importance": 1.5489
+      },
+      {
+        "feature": "V123",
+        "z_value": 30.927,
+        "importance": 1.385
+      },
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -1.2678
+      },
+      {
+        "feature": "V23",
+        "z_value": 29.615,
+        "importance": 1.2464
+      },
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 1.0783
+      },
+      {
+        "feature": "V45",
+        "z_value": 14.459,
+        "importance": 0.7081
+      },
+      {
+        "feature": "V101",
+        "z_value": 12.34,
+        "importance": -0.6961
+      },
+      {
+        "feature": "V114",
+        "z_value": 19.263,
+        "importance": -0.4588
+      },
+      {
+        "feature": "V108",
+        "z_value": 12.773,
+        "importance": 0.4575
+      },
+      {
+        "feature": "V200",
+        "z_value": 12.869,
+        "importance": 0.4308
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3105903,
+        "mask": 0.0137,
+        "label": 0
+      },
+      {
+        "TransactionID": 3360002,
+        "mask": 0.0137,
+        "label": 1
+      },
+      {
+        "TransactionID": 3063557,
+        "mask": 0.0135,
+        "label": 1
+      },
+      {
+        "TransactionID": 3060924,
+        "mask": 0.0132,
+        "label": 1
+      },
+      {
+        "TransactionID": 3361988,
+        "mask": 0.013,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3405229,
+    "score": 9.6,
+    "probability": 0.9999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 877,
+      "labelled_payments": 757,
+      "known_frauds": 176
+    },
+    "device": null,
+    "score_from_connections": 0.53,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 5.095,
+      "D columns (time gaps)": 0.298,
+      "C columns (counts)": 0.201,
+      "Card and address columns": 0.182,
+      "Identity columns": -0.149,
+      "How often the card/address was seen": 0.065,
+      "Amount": -0.007
+    },
+    "category_effect_top5": [
+      {
+        "column": "card4",
+        "effect": 0.366
+      },
+      {
+        "column": "hour",
+        "effect": 0.364
+      },
+      {
+        "column": "id_31",
+        "effect": 0.328
+      },
+      {
+        "column": "id_38",
+        "effect": 0.203
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.12
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V244",
+        "z_value": 3.009,
+        "importance": 0.775
+      },
+      {
+        "feature": "V115",
+        "z_value": 11.278,
+        "importance": 0.7684
+      },
+      {
+        "feature": "V128",
+        "z_value": 1.229,
+        "importance": 0.7432
+      },
+      {
+        "feature": "V243",
+        "z_value": 1.292,
+        "importance": 0.7318
+      },
+      {
+        "feature": "V69",
+        "z_value": -0.667,
+        "importance": 0.7287
+      },
+      {
+        "feature": "V246",
+        "z_value": 3.987,
+        "importance": 0.7266
+      },
+      {
+        "feature": "V111",
+        "z_value": 14.064,
+        "importance": 0.7237
+      },
+      {
+        "feature": "V194",
+        "z_value": 6.893,
+        "importance": 0.723
+      },
+      {
+        "feature": "V242",
+        "z_value": 3.162,
+        "importance": 0.7214
+      },
+      {
+        "feature": "V23",
+        "z_value": 33.864,
+        "importance": 0.7163
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V123",
+        "z_value": 35.365,
+        "importance": 1.7781
+      },
+      {
+        "feature": "V23",
+        "z_value": 33.864,
+        "importance": 1.7025
+      },
+      {
+        "feature": "V125",
+        "z_value": 30.735,
+        "importance": 1.6324
+      },
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -1.237
+      },
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 0.9831
+      },
+      {
+        "feature": "V45",
+        "z_value": 16.081,
+        "importance": 0.8797
+      },
+      {
+        "feature": "V101",
+        "z_value": 14.129,
+        "importance": -0.8021
+      },
+      {
+        "feature": "V87",
+        "z_value": 17.022,
+        "importance": 0.536
+      },
+      {
+        "feature": "V200",
+        "z_value": 14.715,
+        "importance": 0.4828
+      },
+      {
+        "feature": "V114",
+        "z_value": 19.263,
+        "importance": -0.45
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3051989,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3395746,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3110365,
+        "mask": 0.0141,
+        "label": 1
+      },
+      {
+        "TransactionID": 3150746,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3371114,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3429456,
+    "score": 9.553,
+    "probability": 0.9999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 46,
+      "labelled_payments": 42,
+      "known_frauds": 9
+    },
+    "device": null,
+    "score_from_connections": 2.137,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 7.348,
+      "Card and address columns": 0.799,
+      "D columns (time gaps)": 0.533,
+      "How often the card/address was seen": -0.363,
+      "Identity columns": -0.304,
+      "Amount": -0.113,
+      "C columns (counts)": 0.097
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.642
+      },
+      {
+        "column": "M4",
+        "effect": 0.46
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.388
+      },
+      {
+        "column": "id_38",
+        "effect": 0.227
+      },
+      {
+        "column": "id_35",
+        "effect": -0.123
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "card2",
+        "z_value": -1.418,
+        "importance": 0.8015
+      },
+      {
+        "feature": "card3",
+        "z_value": 2.739,
+        "importance": 0.8012
+      },
+      {
+        "feature": "V242",
+        "z_value": 16.143,
+        "importance": 0.799
+      },
+      {
+        "feature": "D2_missing",
+        "z_value": 1.0,
+        "importance": 0.7894
+      },
+      {
+        "feature": "V257",
+        "z_value": 14.421,
+        "importance": 0.7883
+      },
+      {
+        "feature": "V84_missing",
+        "z_value": 1.0,
+        "importance": 0.7842
+      },
+      {
+        "feature": "V243",
+        "z_value": 8.038,
+        "importance": 0.7813
+      },
+      {
+        "feature": "V232",
+        "z_value": 9.884,
+        "importance": 0.7765
+      },
+      {
+        "feature": "addr1_count",
+        "z_value": -2.634,
+        "importance": 0.7746
+      },
+      {
+        "feature": "V233",
+        "z_value": 12.17,
+        "importance": 0.773
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V257",
+        "z_value": 14.421,
+        "importance": 1.8305
+      },
+      {
+        "feature": "V67",
+        "z_value": -4.697,
+        "importance": -1.6674
+      },
+      {
+        "feature": "V258",
+        "z_value": 9.624,
+        "importance": 1.585
+      },
+      {
+        "feature": "V217",
+        "z_value": 10.441,
+        "importance": -1.3606
+      },
+      {
+        "feature": "V231",
+        "z_value": 12.732,
+        "importance": -1.236
+      },
+      {
+        "feature": "V232",
+        "z_value": 9.884,
+        "importance": 0.9598
+      },
+      {
+        "feature": "V244",
+        "z_value": 15.37,
+        "importance": 0.7803
+      },
+      {
+        "feature": "V243",
+        "z_value": 8.038,
+        "importance": 0.7715
+      },
+      {
+        "feature": "V62",
+        "z_value": -2.042,
+        "importance": -0.7171
+      },
+      {
+        "feature": "id_02",
+        "z_value": 3.615,
+        "importance": -0.6568
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3221759,
+        "mask": 0.0159,
+        "label": 1
+      },
+      {
+        "TransactionID": 3219522,
+        "mask": 0.0158,
+        "label": 1
+      },
+      {
+        "TransactionID": 3432333,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3105832,
+        "mask": 0.0136,
+        "label": 0
+      },
+      {
+        "TransactionID": 3034898,
+        "mask": 0.0133,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3429345,
+    "score": 9.015,
+    "probability": 0.9999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 175,
+      "labelled_payments": 145,
+      "known_frauds": 13
+    },
+    "device": null,
+    "score_from_connections": 0.409,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.619,
+      "Amount": -0.332,
+      "Identity columns": 0.261,
+      "Card and address columns": 0.219,
+      "C columns (counts)": 0.148,
+      "D columns (time gaps)": -0.1,
+      "How often the card/address was seen": 0.026
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.392
+      },
+      {
+        "column": "hour",
+        "effect": 0.355
+      },
+      {
+        "column": "M4",
+        "effect": 0.34
+      },
+      {
+        "column": "dayofweek",
+        "effect": -0.183
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": -0.067
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V232",
+        "z_value": 27.146,
+        "importance": 0.6462
+      },
+      {
+        "feature": "V258",
+        "z_value": 17.384,
+        "importance": 0.6375
+      },
+      {
+        "feature": "V257",
+        "z_value": 28.933,
+        "importance": 0.6282
+      },
+      {
+        "feature": "V199",
+        "z_value": 20.315,
+        "importance": 0.6157
+      },
+      {
+        "feature": "V79_missing",
+        "z_value": 1.0,
+        "importance": 0.6106
+      },
+      {
+        "feature": "V302",
+        "z_value": 1.512,
+        "importance": 0.6072
+      },
+      {
+        "feature": "id_01",
+        "z_value": -2.446,
+        "importance": 0.6037
+      },
+      {
+        "feature": "V303",
+        "z_value": 1.201,
+        "importance": 0.601
+      },
+      {
+        "feature": "card2",
+        "z_value": -1.03,
+        "importance": 0.6008
+      },
+      {
+        "feature": "V92_missing",
+        "z_value": 1.0,
+        "importance": 0.6007
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V257",
+        "z_value": 28.933,
+        "importance": 1.5038
+      },
+      {
+        "feature": "V258",
+        "z_value": 17.384,
+        "importance": 1.4576
+      },
+      {
+        "feature": "V231",
+        "z_value": 25.577,
+        "importance": -1.0713
+      },
+      {
+        "feature": "V228",
+        "z_value": 29.223,
+        "importance": -1.0247
+      },
+      {
+        "feature": "V199",
+        "z_value": 20.315,
+        "importance": 0.9477
+      },
+      {
+        "feature": "V217",
+        "z_value": 21.038,
+        "importance": -0.8892
+      },
+      {
+        "feature": "V232",
+        "z_value": 27.146,
+        "importance": 0.783
+      },
+      {
+        "feature": "V176",
+        "z_value": 20.516,
+        "importance": 0.7704
+      },
+      {
+        "feature": "V246",
+        "z_value": 34.516,
+        "importance": 0.756
+      },
+      {
+        "feature": "V190",
+        "z_value": 21.565,
+        "importance": 0.7025
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3035080,
+        "mask": 0.0144,
+        "label": 0
+      },
+      {
+        "TransactionID": 3351457,
+        "mask": 0.0143,
+        "label": 0
+      },
+      {
+        "TransactionID": 3071139,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3024267,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3034651,
+        "mask": 0.0137,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3409933,
+    "score": 8.818,
+    "probability": 0.9999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1207,
+      "labelled_payments": 1041,
+      "known_frauds": 167
+    },
+    "device": null,
+    "score_from_connections": -0.293,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.215,
+      "Identity columns": 0.761,
+      "Amount": -0.377,
+      "D columns (time gaps)": 0.338,
+      "How often the card/address was seen": 0.312,
+      "Card and address columns": 0.175,
+      "C columns (counts)": 0.037
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.521
+      },
+      {
+        "column": "id_38",
+        "effect": 0.444
+      },
+      {
+        "column": "M4",
+        "effect": 0.37
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.269
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": 0.203
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V233",
+        "z_value": 24.455,
+        "importance": 0.7621
+      },
+      {
+        "feature": "V39",
+        "z_value": 7.186,
+        "importance": 0.7082
+      },
+      {
+        "feature": "V245",
+        "z_value": 4.029,
+        "importance": 0.705
+      },
+      {
+        "feature": "V18",
+        "z_value": 2.468,
+        "importance": 0.7041
+      },
+      {
+        "feature": "V190",
+        "z_value": 10.111,
+        "importance": 0.6813
+      },
+      {
+        "feature": "V222",
+        "z_value": 14.741,
+        "importance": 0.6799
+      },
+      {
+        "feature": "D1",
+        "z_value": -0.584,
+        "importance": 0.6768
+      },
+      {
+        "feature": "V43",
+        "z_value": 2.334,
+        "importance": 0.6755
+      },
+      {
+        "feature": "V230",
+        "z_value": 19.367,
+        "importance": 0.6739
+      },
+      {
+        "feature": "V286",
+        "z_value": -0.166,
+        "importance": 0.6701
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V259",
+        "z_value": 14.036,
+        "importance": 5.1582
+      },
+      {
+        "feature": "V220",
+        "z_value": 45.176,
+        "importance": -3.5052
+      },
+      {
+        "feature": "V44",
+        "z_value": 28.847,
+        "importance": 3.3033
+      },
+      {
+        "feature": "V45",
+        "z_value": 25.813,
+        "importance": 3.0231
+      },
+      {
+        "feature": "V257",
+        "z_value": 25.708,
+        "importance": 2.4148
+      },
+      {
+        "feature": "V258",
+        "z_value": 15.444,
+        "importance": 2.2349
+      },
+      {
+        "feature": "V221",
+        "z_value": 15.563,
+        "importance": -2.1697
+      },
+      {
+        "feature": "V217",
+        "z_value": 24.217,
+        "importance": -1.9688
+      },
+      {
+        "feature": "V231",
+        "z_value": 28.146,
+        "importance": -1.8291
+      },
+      {
+        "feature": "V78",
+        "z_value": 12.332,
+        "importance": -1.6708
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 2993187,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3272641,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3070832,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3254209,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 3359347,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3429324,
+    "score": 8.805,
+    "probability": 0.9999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1661,
+      "labelled_payments": 1355,
+      "known_frauds": 44
+    },
+    "device": null,
+    "score_from_connections": 0.206,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 7.982,
+      "Identity columns": 0.393,
+      "Amount": -0.339,
+      "Card and address columns": 0.224,
+      "D columns (time gaps)": -0.148,
+      "C columns (counts)": 0.142,
+      "How often the card/address was seen": 0.106
+    },
+    "category_effect_top5": [
+      {
+        "column": "M4",
+        "effect": 0.386
+      },
+      {
+        "column": "id_31",
+        "effect": 0.357
+      },
+      {
+        "column": "hour",
+        "effect": 0.292
+      },
+      {
+        "column": "dayofweek",
+        "effect": -0.168
+      },
+      {
+        "column": "card6",
+        "effect": -0.138
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "id_19",
+        "z_value": -2.353,
+        "importance": 0.7928
+      },
+      {
+        "feature": "V246",
+        "z_value": 34.516,
+        "importance": 0.7832
+      },
+      {
+        "feature": "V280",
+        "z_value": -0.162,
+        "importance": 0.7724
+      },
+      {
+        "feature": "V306",
+        "z_value": -0.119,
+        "importance": 0.7475
+      },
+      {
+        "feature": "id_02",
+        "z_value": -0.804,
+        "importance": 0.7451
+      },
+      {
+        "feature": "V56",
+        "z_value": -0.198,
+        "importance": 0.7337
+      },
+      {
+        "feature": "V242",
+        "z_value": 22.633,
+        "importance": 0.733
+      },
+      {
+        "feature": "V76",
+        "z_value": 0.709,
+        "importance": 0.7246
+      },
+      {
+        "feature": "V279",
+        "z_value": -0.266,
+        "importance": 0.7218
+      },
+      {
+        "feature": "V322",
+        "z_value": -0.118,
+        "importance": 0.713
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V257",
+        "z_value": 28.933,
+        "importance": 1.414
+      },
+      {
+        "feature": "V258",
+        "z_value": 17.384,
+        "importance": 1.3738
+      },
+      {
+        "feature": "V246",
+        "z_value": 34.516,
+        "importance": 0.8657
+      },
+      {
+        "feature": "V199",
+        "z_value": 20.315,
+        "importance": 0.8592
+      },
+      {
+        "feature": "V242",
+        "z_value": 22.633,
+        "importance": 0.8102
+      },
+      {
+        "feature": "V232",
+        "z_value": 26.238,
+        "importance": 0.7725
+      },
+      {
+        "feature": "V231",
+        "z_value": 24.292,
+        "importance": -0.7724
+      },
+      {
+        "feature": "V244",
+        "z_value": 15.37,
+        "importance": 0.7584
+      },
+      {
+        "feature": "V190",
+        "z_value": 21.565,
+        "importance": 0.6931
+      },
+      {
+        "feature": "V247",
+        "z_value": 8.106,
+        "importance": 0.6679
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3299601,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3422708,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3025883,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3480893,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3250104,
+        "mask": 0.0139,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3403478,
+    "score": 8.714,
+    "probability": 0.9998,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1683,
+      "labelled_payments": 1188,
+      "known_frauds": 246
+    },
+    "device": null,
+    "score_from_connections": 1.655,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 5.577,
+      "Identity columns": 0.699,
+      "D columns (time gaps)": 0.608,
+      "Card and address columns": 0.465,
+      "How often the card/address was seen": 0.442,
+      "C columns (counts)": 0.119,
+      "Amount": -0.042
+    },
+    "category_effect_top5": [
+      {
+        "column": "card6",
+        "effect": -0.743
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.565
+      },
+      {
+        "column": "id_31",
+        "effect": 0.556
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.524
+      },
+      {
+        "column": "hour",
+        "effect": 0.416
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V16",
+        "z_value": 2.673,
+        "importance": 0.8322
+      },
+      {
+        "feature": "V72",
+        "z_value": 5.237,
+        "importance": 0.8136
+      },
+      {
+        "feature": "V94",
+        "z_value": 2.717,
+        "importance": 0.8104
+      },
+      {
+        "feature": "V40",
+        "z_value": 1.972,
+        "importance": 0.8097
+      },
+      {
+        "feature": "V171",
+        "z_value": 0.903,
+        "importance": 0.8049
+      },
+      {
+        "feature": "id_06",
+        "z_value": -1.978,
+        "importance": 0.8018
+      },
+      {
+        "feature": "V229",
+        "z_value": 0.363,
+        "importance": 0.7996
+      },
+      {
+        "feature": "D5",
+        "z_value": -0.247,
+        "importance": 0.7972
+      },
+      {
+        "feature": "V60",
+        "z_value": 4.829,
+        "importance": 0.7946
+      },
+      {
+        "feature": "V61",
+        "z_value": 0.349,
+        "importance": 0.7941
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V83",
+        "z_value": 4.936,
+        "importance": 2.1857
+      },
+      {
+        "feature": "V67",
+        "z_value": 4.672,
+        "importance": 1.5848
+      },
+      {
+        "feature": "V62",
+        "z_value": 2.537,
+        "importance": 0.9596
+      },
+      {
+        "feature": "V87",
+        "z_value": 4.121,
+        "importance": 0.7393
+      },
+      {
+        "feature": "V184",
+        "z_value": 3.55,
+        "importance": -0.5595
+      },
+      {
+        "feature": "V78",
+        "z_value": 4.511,
+        "importance": -0.5573
+      },
+      {
+        "feature": "V189",
+        "z_value": 2.932,
+        "importance": 0.5409
+      },
+      {
+        "feature": "id_03",
+        "z_value": 4.843,
+        "importance": 0.5216
+      },
+      {
+        "feature": "card1_count",
+        "z_value": 0.947,
+        "importance": 0.4376
+      },
+      {
+        "feature": "V185",
+        "z_value": 3.198,
+        "importance": -0.3509
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3412083,
+        "mask": 0.014,
+        "label": null
+      },
+      {
+        "TransactionID": 3343100,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3388493,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3372427,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 3462021,
+        "mask": 0.014,
+        "label": null
+      }
+    ]
+  },
+  {
+    "TransactionID": 3405224,
+    "score": 8.603,
+    "probability": 0.9998,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4054,
+      "labelled_payments": 3453,
+      "known_frauds": 188
+    },
+    "device": null,
+    "score_from_connections": 0.345,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 5.242,
+      "D columns (time gaps)": 0.791,
+      "Card and address columns": 0.388,
+      "C columns (counts)": 0.329,
+      "How often the card/address was seen": 0.217,
+      "Identity columns": 0.114,
+      "Amount": -0.012
+    },
+    "category_effect_top5": [
+      {
+        "column": "card4",
+        "effect": 0.428
+      },
+      {
+        "column": "hour",
+        "effect": 0.327
+      },
+      {
+        "column": "id_31",
+        "effect": 0.307
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.3
+      },
+      {
+        "column": "id_15",
+        "effect": -0.179
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V124",
+        "z_value": 8.557,
+        "importance": 0.7156
+      },
+      {
+        "feature": "C6",
+        "z_value": 0.348,
+        "importance": 0.6719
+      },
+      {
+        "feature": "V56",
+        "z_value": -0.198,
+        "importance": 0.6703
+      },
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 0.669
+      },
+      {
+        "feature": "V284",
+        "z_value": -0.257,
+        "importance": 0.6663
+      },
+      {
+        "feature": "V37",
+        "z_value": -0.131,
+        "importance": 0.6547
+      },
+      {
+        "feature": "D11",
+        "z_value": -0.369,
+        "importance": 0.6505
+      },
+      {
+        "feature": "V296",
+        "z_value": -0.144,
+        "importance": 0.6505
+      },
+      {
+        "feature": "V298",
+        "z_value": -0.152,
+        "importance": 0.6443
+      },
+      {
+        "feature": "V46",
+        "z_value": -0.117,
+        "importance": 0.6375
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V114",
+        "z_value": 19.263,
+        "importance": -1.5191
+      },
+      {
+        "feature": "V116",
+        "z_value": 15.732,
+        "importance": -1.2377
+      },
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -1.0768
+      },
+      {
+        "feature": "V101",
+        "z_value": 5.184,
+        "importance": -0.7619
+      },
+      {
+        "feature": "V123",
+        "z_value": 13.178,
+        "importance": 0.7295
+      },
+      {
+        "feature": "V110",
+        "z_value": 10.743,
+        "importance": -0.6264
+      },
+      {
+        "feature": "V113",
+        "z_value": 13.244,
+        "importance": -0.4889
+      },
+      {
+        "feature": "D14",
+        "z_value": 5.511,
+        "importance": 0.4337
+      },
+      {
+        "feature": "V125",
+        "z_value": 11.419,
+        "importance": 0.4313
+      },
+      {
+        "feature": "V119",
+        "z_value": 32.583,
+        "importance": -0.3704
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3273041,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3351092,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3405698,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3132947,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3159815,
+        "mask": 0.0138,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3405222,
+    "score": 8.249,
+    "probability": 0.9997,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4054,
+      "labelled_payments": 3453,
+      "known_frauds": 188
+    },
+    "device": null,
+    "score_from_connections": 0.341,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 4.836,
+      "D columns (time gaps)": 0.584,
+      "C columns (counts)": 0.29,
+      "How often the card/address was seen": 0.279,
+      "Card and address columns": 0.214,
+      "Identity columns": 0.072,
+      "Amount": -0.012
+    },
+    "category_effect_top5": [
+      {
+        "column": "hour",
+        "effect": 0.467
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.35
+      },
+      {
+        "column": "id_31",
+        "effect": 0.345
+      },
+      {
+        "column": "card6",
+        "effect": -0.329
+      },
+      {
+        "column": "id_16",
+        "effect": -0.145
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V282",
+        "z_value": -0.91,
+        "importance": 0.7973
+      },
+      {
+        "feature": "V139",
+        "z_value": -0.022,
+        "importance": 0.699
+      },
+      {
+        "feature": "V153",
+        "z_value": 0.183,
+        "importance": 0.6981
+      },
+      {
+        "feature": "V284",
+        "z_value": -0.257,
+        "importance": 0.6977
+      },
+      {
+        "feature": "V317",
+        "z_value": -0.073,
+        "importance": 0.6938
+      },
+      {
+        "feature": "V286",
+        "z_value": -0.166,
+        "importance": 0.6925
+      },
+      {
+        "feature": "D14",
+        "z_value": 5.511,
+        "importance": 0.692
+      },
+      {
+        "feature": "V246",
+        "z_value": 1.952,
+        "importance": 0.6893
+      },
+      {
+        "feature": "V106",
+        "z_value": -0.163,
+        "importance": 0.6891
+      },
+      {
+        "feature": "V155_missing",
+        "z_value": 1.0,
+        "importance": 0.6879
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V108",
+        "z_value": 12.773,
+        "importance": 0.8856
+      },
+      {
+        "feature": "V114",
+        "z_value": 9.589,
+        "importance": -0.8752
+      },
+      {
+        "feature": "V67",
+        "z_value": 4.672,
+        "importance": 0.7876
+      },
+      {
+        "feature": "V113",
+        "z_value": 13.244,
+        "importance": -0.7646
+      },
+      {
+        "feature": "V45",
+        "z_value": 4.727,
+        "importance": 0.6048
+      },
+      {
+        "feature": "V62",
+        "z_value": 2.537,
+        "importance": 0.4732
+      },
+      {
+        "feature": "V47",
+        "z_value": 4.751,
+        "importance": 0.4713
+      },
+      {
+        "feature": "V123",
+        "z_value": 4.304,
+        "importance": 0.4392
+      },
+      {
+        "feature": "V116",
+        "z_value": 7.811,
+        "importance": -0.3924
+      },
+      {
+        "feature": "V109",
+        "z_value": 8.146,
+        "importance": 0.3321
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3440507,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3270000,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3144889,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3397623,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3376278,
+        "mask": 0.0138,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3485707,
+    "score": 8.016,
+    "probability": 0.9997,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1683,
+      "labelled_payments": 1188,
+      "known_frauds": 246
+    },
+    "device": null,
+    "score_from_connections": 0.601,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.562,
+      "Card and address columns": 0.307,
+      "Identity columns": 0.29,
+      "D columns (time gaps)": 0.268,
+      "Amount": -0.244,
+      "How often the card/address was seen": 0.22,
+      "C columns (counts)": 0.029
+    },
+    "category_effect_top5": [
+      {
+        "column": "card6",
+        "effect": -0.369
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.338
+      },
+      {
+        "column": "id_31",
+        "effect": 0.283
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.194
+      },
+      {
+        "column": "id_38",
+        "effect": 0.149
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V100",
+        "z_value": -0.282,
+        "importance": 0.7303
+      },
+      {
+        "feature": "V127",
+        "z_value": -0.222,
+        "importance": 0.705
+      },
+      {
+        "feature": "V158_missing",
+        "z_value": 1.0,
+        "importance": 0.6977
+      },
+      {
+        "feature": "V304",
+        "z_value": 1.408,
+        "importance": 0.6949
+      },
+      {
+        "feature": "V145_missing",
+        "z_value": 1.0,
+        "importance": 0.6947
+      },
+      {
+        "feature": "V102",
+        "z_value": -0.129,
+        "importance": 0.6913
+      },
+      {
+        "feature": "V96",
+        "z_value": -0.279,
+        "importance": 0.6903
+      },
+      {
+        "feature": "V157_missing",
+        "z_value": 1.0,
+        "importance": 0.6901
+      },
+      {
+        "feature": "V334_missing",
+        "z_value": 1.0,
+        "importance": 0.6894
+      },
+      {
+        "feature": "V97",
+        "z_value": -0.293,
+        "importance": 0.6879
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V189",
+        "z_value": 8.839,
+        "importance": 0.5626
+      },
+      {
+        "feature": "V44",
+        "z_value": 5.32,
+        "importance": 0.4345
+      },
+      {
+        "feature": "V45",
+        "z_value": 4.727,
+        "importance": 0.404
+      },
+      {
+        "feature": "V200",
+        "z_value": 5.487,
+        "importance": 0.3489
+      },
+      {
+        "feature": "V232",
+        "z_value": 9.884,
+        "importance": 0.3465
+      },
+      {
+        "feature": "V261",
+        "z_value": 13.307,
+        "importance": 0.3261
+      },
+      {
+        "feature": "V87",
+        "z_value": 6.271,
+        "importance": 0.3119
+      },
+      {
+        "feature": "V77",
+        "z_value": 5.853,
+        "importance": -0.286
+      },
+      {
+        "feature": "V242",
+        "z_value": 9.653,
+        "importance": 0.2629
+      },
+      {
+        "feature": "V247",
+        "z_value": 8.106,
+        "importance": 0.2613
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3319231,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3414272,
+        "mask": 0.014,
+        "label": null
+      },
+      {
+        "TransactionID": 3426179,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3267110,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3395969,
+        "mask": 0.0139,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3456925,
+    "score": 7.717,
+    "probability": 0.9996,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1794,
+      "labelled_payments": 1419,
+      "known_frauds": 244
+    },
+    "device": {
+      "other_payments": 34,
+      "labelled_payments": 8,
+      "known_frauds": 0
+    },
+    "score_from_connections": 1.474,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 4.924,
+      "Card and address columns": 0.287,
+      "Amount": -0.103,
+      "C columns (counts)": 0.077,
+      "D columns (time gaps)": -0.065,
+      "How often the card/address was seen": 0.054,
+      "Identity columns": -0.039
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_15",
+        "effect": -0.322
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.281
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": -0.214
+      },
+      {
+        "column": "dayofweek",
+        "effect": 0.191
+      },
+      {
+        "column": "id_16",
+        "effect": -0.158
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V197",
+        "z_value": -5.889,
+        "importance": 0.7104
+      },
+      {
+        "feature": "V264_missing",
+        "z_value": 1.0,
+        "importance": 0.6768
+      },
+      {
+        "feature": "D2_missing",
+        "z_value": 1.0,
+        "importance": 0.6746
+      },
+      {
+        "feature": "V244_missing",
+        "z_value": 1.0,
+        "importance": 0.6743
+      },
+      {
+        "feature": "D11_missing",
+        "z_value": 1.0,
+        "importance": 0.6724
+      },
+      {
+        "feature": "V338_missing",
+        "z_value": 1.0,
+        "importance": 0.6719
+      },
+      {
+        "feature": "V140_missing",
+        "z_value": 1.0,
+        "importance": 0.6648
+      },
+      {
+        "feature": "V322_missing",
+        "z_value": 1.0,
+        "importance": 0.663
+      },
+      {
+        "feature": "V260_missing",
+        "z_value": 1.0,
+        "importance": 0.6616
+      },
+      {
+        "feature": "V139_missing",
+        "z_value": 1.0,
+        "importance": 0.6608
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 1.668
+      },
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -1.5986
+      },
+      {
+        "feature": "V121",
+        "z_value": 16.359,
+        "importance": -0.8408
+      },
+      {
+        "feature": "V112",
+        "z_value": 11.699,
+        "importance": 0.7104
+      },
+      {
+        "feature": "V114",
+        "z_value": 9.589,
+        "importance": -0.6659
+      },
+      {
+        "feature": "V116",
+        "z_value": 7.811,
+        "importance": -0.6359
+      },
+      {
+        "feature": "V122",
+        "z_value": 23.678,
+        "importance": -0.5462
+      },
+      {
+        "feature": "V169",
+        "z_value": 10.969,
+        "importance": -0.5362
+      },
+      {
+        "feature": "V109",
+        "z_value": 8.146,
+        "importance": -0.5142
+      },
+      {
+        "feature": "V195",
+        "z_value": -5.696,
+        "importance": 0.482
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3279708,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3281254,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3377158,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3433455,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3153319,
+        "mask": 0.0139,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3488942,
+    "score": 7.551,
+    "probability": 0.9995,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 73,
+      "labelled_payments": 51,
+      "known_frauds": 2
+    },
+    "device": null,
+    "score_from_connections": 0.609,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 9.205,
+      "Card and address columns": 1.025,
+      "D columns (time gaps)": 0.991,
+      "Identity columns": 0.505,
+      "How often the card/address was seen": 0.381,
+      "Amount": 0.209,
+      "C columns (counts)": 0.133
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.637
+      },
+      {
+        "column": "id_33",
+        "effect": 0.613
+      },
+      {
+        "column": "id_30",
+        "effect": -0.543
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": -0.483
+      },
+      {
+        "column": "card4",
+        "effect": -0.422
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "id_20",
+        "z_value": -1.443,
+        "importance": 0.8873
+      },
+      {
+        "feature": "V154",
+        "z_value": -4.502,
+        "importance": 0.8788
+      },
+      {
+        "feature": "V153",
+        "z_value": -4.576,
+        "importance": 0.8785
+      },
+      {
+        "feature": "V52_missing",
+        "z_value": 1.0,
+        "importance": 0.878
+      },
+      {
+        "feature": "D3_missing",
+        "z_value": 1.0,
+        "importance": 0.8769
+      },
+      {
+        "feature": "D4_missing",
+        "z_value": 1.0,
+        "importance": 0.8767
+      },
+      {
+        "feature": "D5_missing",
+        "z_value": 1.0,
+        "importance": 0.8764
+      },
+      {
+        "feature": "V140",
+        "z_value": -1.736,
+        "importance": 0.8755
+      },
+      {
+        "feature": "id_14",
+        "z_value": -4.265,
+        "importance": 0.8745
+      },
+      {
+        "feature": "V148",
+        "z_value": -4.226,
+        "importance": 0.873
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V261",
+        "z_value": 7.378,
+        "importance": 1.2229
+      },
+      {
+        "feature": "V248",
+        "z_value": 4.074,
+        "importance": 1.0433
+      },
+      {
+        "feature": "card1",
+        "z_value": -1.726,
+        "importance": 0.6415
+      },
+      {
+        "feature": "V156",
+        "z_value": -3.925,
+        "importance": -0.6079
+      },
+      {
+        "feature": "id_14",
+        "z_value": -4.265,
+        "importance": 0.5845
+      },
+      {
+        "feature": "V153",
+        "z_value": -4.576,
+        "importance": 0.5534
+      },
+      {
+        "feature": "V236",
+        "z_value": 5.232,
+        "importance": 0.4611
+      },
+      {
+        "feature": "V149",
+        "z_value": -3.938,
+        "importance": -0.4438
+      },
+      {
+        "feature": "V251",
+        "z_value": 8.096,
+        "importance": 0.3746
+      },
+      {
+        "feature": "card_count",
+        "z_value": -0.967,
+        "importance": 0.3678
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3172612,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3228800,
+        "mask": 0.0136,
+        "label": 0
+      },
+      {
+        "TransactionID": 3269697,
+        "mask": 0.0136,
+        "label": 0
+      },
+      {
+        "TransactionID": 3310609,
+        "mask": 0.0136,
+        "label": 0
+      },
+      {
+        "TransactionID": 3062208,
+        "mask": 0.0136,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3453062,
+    "score": 7.506,
+    "probability": 0.9995,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1794,
+      "labelled_payments": 1419,
+      "known_frauds": 244
+    },
+    "device": null,
+    "score_from_connections": 1.411,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.327,
+      "Amount": -0.62,
+      "Identity columns": 0.269,
+      "How often the card/address was seen": 0.178,
+      "D columns (time gaps)": 0.133,
+      "C columns (counts)": 0.075,
+      "Card and address columns": 0.041
+    },
+    "category_effect_top5": [
+      {
+        "column": "M4",
+        "effect": 0.533
+      },
+      {
+        "column": "id_38",
+        "effect": 0.457
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.438
+      },
+      {
+        "column": "id_31",
+        "effect": 0.404
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.308
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "C14",
+        "z_value": -0.141,
+        "importance": 0.7521
+      },
+      {
+        "feature": "V91",
+        "z_value": -0.645,
+        "importance": 0.7501
+      },
+      {
+        "feature": "addr1_count",
+        "z_value": -2.634,
+        "importance": 0.7471
+      },
+      {
+        "feature": "V199",
+        "z_value": 1.055,
+        "importance": 0.7471
+      },
+      {
+        "feature": "V282",
+        "z_value": 0.176,
+        "importance": 0.7464
+      },
+      {
+        "feature": "V223",
+        "z_value": -0.108,
+        "importance": 0.7463
+      },
+      {
+        "feature": "V11",
+        "z_value": -0.488,
+        "importance": 0.7416
+      },
+      {
+        "feature": "V13",
+        "z_value": 0.708,
+        "importance": 0.7415
+      },
+      {
+        "feature": "V29",
+        "z_value": -0.667,
+        "importance": 0.7409
+      },
+      {
+        "feature": "V124",
+        "z_value": -0.238,
+        "importance": 0.7406
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V189",
+        "z_value": 8.839,
+        "importance": 1.6541
+      },
+      {
+        "feature": "V67",
+        "z_value": 4.672,
+        "importance": 1.5333
+      },
+      {
+        "feature": "V200",
+        "z_value": 5.487,
+        "importance": 0.8226
+      },
+      {
+        "feature": "V184",
+        "z_value": 10.889,
+        "importance": -0.7725
+      },
+      {
+        "feature": "V188",
+        "z_value": 11.003,
+        "importance": 0.691
+      },
+      {
+        "feature": "TransactionAmt",
+        "z_value": -1.59,
+        "importance": -0.6203
+      },
+      {
+        "feature": "V174",
+        "z_value": 5.001,
+        "importance": -0.6102
+      },
+      {
+        "feature": "V175",
+        "z_value": 3.424,
+        "importance": -0.5106
+      },
+      {
+        "feature": "V201",
+        "z_value": 4.927,
+        "importance": 0.4194
+      },
+      {
+        "feature": "V185",
+        "z_value": 9.831,
+        "importance": -0.3971
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3155745,
+        "mask": 0.014,
+        "label": 1
+      },
+      {
+        "TransactionID": 2987777,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3438963,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3370001,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3137601,
+        "mask": 0.0139,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3432799,
+    "score": 7.341,
+    "probability": 0.9994,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 890,
+      "labelled_payments": 730,
+      "known_frauds": 100
+    },
+    "device": null,
+    "score_from_connections": 1.09,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 4.023,
+      "D columns (time gaps)": 0.894,
+      "Amount": -0.226,
+      "Card and address columns": 0.155,
+      "Identity columns": 0.124,
+      "C columns (counts)": 0.085,
+      "How often the card/address was seen": 0.051
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_38",
+        "effect": 0.417
+      },
+      {
+        "column": "card4",
+        "effect": 0.393
+      },
+      {
+        "column": "id_31",
+        "effect": 0.376
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.283
+      },
+      {
+        "column": "dayofweek",
+        "effect": 0.173
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V159_missing",
+        "z_value": 1.0,
+        "importance": 0.8237
+      },
+      {
+        "feature": "V141_missing",
+        "z_value": 1.0,
+        "importance": 0.8133
+      },
+      {
+        "feature": "V337_missing",
+        "z_value": 1.0,
+        "importance": 0.7995
+      },
+      {
+        "feature": "V15_missing",
+        "z_value": 1.0,
+        "importance": 0.7946
+      },
+      {
+        "feature": "V283",
+        "z_value": 0.625,
+        "importance": 0.794
+      },
+      {
+        "feature": "V94_missing",
+        "z_value": 1.0,
+        "importance": 0.7922
+      },
+      {
+        "feature": "V78_missing",
+        "z_value": 1.0,
+        "importance": 0.7911
+      },
+      {
+        "feature": "V12",
+        "z_value": 0.796,
+        "importance": 0.7898
+      },
+      {
+        "feature": "V84",
+        "z_value": -0.354,
+        "importance": 0.7895
+      },
+      {
+        "feature": "V285",
+        "z_value": -0.337,
+        "importance": 0.7884
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V47",
+        "z_value": 9.644,
+        "importance": 1.403
+      },
+      {
+        "feature": "V45",
+        "z_value": 7.971,
+        "importance": 1.2434
+      },
+      {
+        "feature": "V67",
+        "z_value": -4.697,
+        "importance": -0.7478
+      },
+      {
+        "feature": "V66",
+        "z_value": -5.394,
+        "importance": 0.6752
+      },
+      {
+        "feature": "D6",
+        "z_value": 6.955,
+        "importance": 0.4671
+      },
+      {
+        "feature": "V62",
+        "z_value": -2.042,
+        "importance": -0.404
+      },
+      {
+        "feature": "V44",
+        "z_value": 3.51,
+        "importance": 0.3583
+      },
+      {
+        "feature": "V55",
+        "z_value": 2.562,
+        "importance": -0.3512
+      },
+      {
+        "feature": "TransactionAmt",
+        "z_value": -0.706,
+        "importance": -0.2256
+      },
+      {
+        "feature": "D9",
+        "z_value": -3.95,
+        "importance": 0.2168
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3296297,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3139754,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3307759,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3078896,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3404773,
+        "mask": 0.014,
+        "label": null
+      }
+    ]
+  },
+  {
+    "TransactionID": 3460604,
+    "score": 7.322,
+    "probability": 0.9993,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4054,
+      "labelled_payments": 3453,
+      "known_frauds": 188
+    },
+    "device": null,
+    "score_from_connections": 0.417,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.001,
+      "C columns (counts)": 1.188,
+      "Amount": -0.43,
+      "Card and address columns": 0.393,
+      "Identity columns": 0.365,
+      "D columns (time gaps)": 0.275,
+      "How often the card/address was seen": 0.056
+    },
+    "category_effect_top5": [
+      {
+        "column": "card4",
+        "effect": 0.587
+      },
+      {
+        "column": "card6",
+        "effect": -0.509
+      },
+      {
+        "column": "id_31",
+        "effect": 0.389
+      },
+      {
+        "column": "id_38",
+        "effect": 0.324
+      },
+      {
+        "column": "dayofweek",
+        "effect": 0.216
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V332_missing",
+        "z_value": 1.0,
+        "importance": 0.708
+      },
+      {
+        "feature": "V180",
+        "z_value": -0.067,
+        "importance": 0.6648
+      },
+      {
+        "feature": "V148_missing",
+        "z_value": 1.0,
+        "importance": 0.6643
+      },
+      {
+        "feature": "V103",
+        "z_value": -0.162,
+        "importance": 0.6604
+      },
+      {
+        "feature": "V297",
+        "z_value": -0.171,
+        "importance": 0.6591
+      },
+      {
+        "feature": "V1_missing",
+        "z_value": 1.0,
+        "importance": 0.657
+      },
+      {
+        "feature": "V147_missing",
+        "z_value": 1.0,
+        "importance": 0.6569
+      },
+      {
+        "feature": "V94",
+        "z_value": 2.717,
+        "importance": 0.6567
+      },
+      {
+        "feature": "V324_missing",
+        "z_value": 1.0,
+        "importance": 0.6567
+      },
+      {
+        "feature": "D15",
+        "z_value": -0.706,
+        "importance": 0.6564
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V87",
+        "z_value": 10.572,
+        "importance": 1.6124
+      },
+      {
+        "feature": "V44",
+        "z_value": 8.939,
+        "importance": 1.5411
+      },
+      {
+        "feature": "V38",
+        "z_value": 8.186,
+        "importance": -1.1499
+      },
+      {
+        "feature": "V78",
+        "z_value": 7.64,
+        "importance": -1.0142
+      },
+      {
+        "feature": "V45",
+        "z_value": 7.971,
+        "importance": 0.8694
+      },
+      {
+        "feature": "V37",
+        "z_value": 9.665,
+        "importance": -0.7776
+      },
+      {
+        "feature": "V77",
+        "z_value": 5.853,
+        "importance": -0.7047
+      },
+      {
+        "feature": "C2",
+        "z_value": 3.381,
+        "importance": 0.5261
+      },
+      {
+        "feature": "V46",
+        "z_value": 6.763,
+        "importance": -0.5251
+      },
+      {
+        "feature": "TransactionAmt",
+        "z_value": -2.148,
+        "importance": -0.4304
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3443376,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3159023,
+        "mask": 0.0138,
+        "label": 1
+      },
+      {
+        "TransactionID": 3392216,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3485144,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3442423,
+        "mask": 0.0138,
+        "label": null
+      }
+    ]
+  },
+  {
+    "TransactionID": 3458586,
+    "score": 7.059,
+    "probability": 0.9991,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 188,
+      "labelled_payments": 149,
+      "known_frauds": 17
+    },
+    "device": null,
+    "score_from_connections": 0.864,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 3.904,
+      "D columns (time gaps)": 1.362,
+      "Identity columns": 1.177,
+      "Card and address columns": 0.815,
+      "Amount": 0.133,
+      "C columns (counts)": 0.082,
+      "How often the card/address was seen": 0.015
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.677
+      },
+      {
+        "column": "id_38",
+        "effect": 0.474
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.39
+      },
+      {
+        "column": "hour",
+        "effect": 0.345
+      },
+      {
+        "column": "id_29",
+        "effect": 0.316
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V63",
+        "z_value": 2.622,
+        "importance": 0.8067
+      },
+      {
+        "feature": "D12",
+        "z_value": 13.844,
+        "importance": 0.7915
+      },
+      {
+        "feature": "D2_missing",
+        "z_value": 1.0,
+        "importance": 0.7883
+      },
+      {
+        "feature": "id_20",
+        "z_value": -3.955,
+        "importance": 0.7883
+      },
+      {
+        "feature": "V33",
+        "z_value": 2.721,
+        "importance": 0.7864
+      },
+      {
+        "feature": "V50",
+        "z_value": -0.373,
+        "importance": 0.7815
+      },
+      {
+        "feature": "V106",
+        "z_value": -0.163,
+        "importance": 0.7814
+      },
+      {
+        "feature": "id_02",
+        "z_value": -1.243,
+        "importance": 0.781
+      },
+      {
+        "feature": "card3",
+        "z_value": 2.739,
+        "importance": 0.779
+      },
+      {
+        "feature": "V44",
+        "z_value": 1.7,
+        "importance": 0.777
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V87",
+        "z_value": 1.971,
+        "importance": 0.757
+      },
+      {
+        "feature": "card3",
+        "z_value": 2.739,
+        "importance": 0.7517
+      },
+      {
+        "feature": "id_17",
+        "z_value": 2.96,
+        "importance": 0.6199
+      },
+      {
+        "feature": "V44",
+        "z_value": 1.7,
+        "importance": 0.605
+      },
+      {
+        "feature": "D6",
+        "z_value": 7.164,
+        "importance": 0.5936
+      },
+      {
+        "feature": "id_20",
+        "z_value": -3.955,
+        "importance": 0.5838
+      },
+      {
+        "feature": "V45",
+        "z_value": 1.483,
+        "importance": 0.4305
+      },
+      {
+        "feature": "id_02",
+        "z_value": -1.243,
+        "importance": 0.4096
+      },
+      {
+        "feature": "V86",
+        "z_value": 2.426,
+        "importance": 0.4055
+      },
+      {
+        "feature": "D12",
+        "z_value": 13.844,
+        "importance": 0.3759
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3425567,
+        "mask": 0.0145,
+        "label": null
+      },
+      {
+        "TransactionID": 3010681,
+        "mask": 0.0144,
+        "label": 0
+      },
+      {
+        "TransactionID": 3087039,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3446287,
+        "mask": 0.0141,
+        "label": null
+      },
+      {
+        "TransactionID": 3452212,
+        "mask": 0.0141,
+        "label": null
+      }
+    ]
+  },
+  {
+    "TransactionID": 3471535,
+    "score": 7.011,
+    "probability": 0.9991,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4054,
+      "labelled_payments": 3453,
+      "known_frauds": 188
+    },
+    "device": null,
+    "score_from_connections": 0.557,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 3.585,
+      "Identity columns": 2.137,
+      "D columns (time gaps)": 0.583,
+      "How often the card/address was seen": 0.438,
+      "C columns (counts)": 0.131,
+      "Amount": -0.125,
+      "Card and address columns": 0.097
+    },
+    "category_effect_top5": [
+      {
+        "column": "card6",
+        "effect": -0.747
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.586
+      },
+      {
+        "column": "id_31",
+        "effect": 0.536
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.373
+      },
+      {
+        "column": "hour",
+        "effect": -0.267
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V144_missing",
+        "z_value": 1.0,
+        "importance": 0.8899
+      },
+      {
+        "feature": "V328_missing",
+        "z_value": 1.0,
+        "importance": 0.8866
+      },
+      {
+        "feature": "V78",
+        "z_value": -0.181,
+        "importance": 0.8848
+      },
+      {
+        "feature": "V163_missing",
+        "z_value": 1.0,
+        "importance": 0.8792
+      },
+      {
+        "feature": "V324_missing",
+        "z_value": 1.0,
+        "importance": 0.8772
+      },
+      {
+        "feature": "V170",
+        "z_value": -0.131,
+        "importance": 0.8764
+      },
+      {
+        "feature": "V145_missing",
+        "z_value": 1.0,
+        "importance": 0.8755
+      },
+      {
+        "feature": "V101",
+        "z_value": -0.183,
+        "importance": 0.8732
+      },
+      {
+        "feature": "V116",
+        "z_value": -0.109,
+        "importance": 0.87
+      },
+      {
+        "feature": "V148",
+        "z_value": 0.16,
+        "importance": 0.8688
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "id_09",
+        "z_value": 17.156,
+        "importance": 0.9916
+      },
+      {
+        "feature": "card1_count",
+        "z_value": 0.991,
+        "importance": 0.4143
+      },
+      {
+        "feature": "id_03",
+        "z_value": 29.254,
+        "importance": 0.3134
+      },
+      {
+        "feature": "V50",
+        "z_value": 2.633,
+        "importance": -0.2564
+      },
+      {
+        "feature": "V259",
+        "z_value": -0.872,
+        "importance": -0.1996
+      },
+      {
+        "feature": "V51",
+        "z_value": 2.455,
+        "importance": -0.1911
+      },
+      {
+        "feature": "id_17",
+        "z_value": 2.96,
+        "importance": 0.1899
+      },
+      {
+        "feature": "id_05",
+        "z_value": 2.729,
+        "importance": -0.1876
+      },
+      {
+        "feature": "V84",
+        "z_value": 2.576,
+        "importance": -0.1755
+      },
+      {
+        "feature": "V18",
+        "z_value": 2.468,
+        "importance": 0.1498
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3134673,
+        "mask": 0.0138,
+        "label": 1
+      },
+      {
+        "TransactionID": 3485441,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3291576,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3458833,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3431370,
+        "mask": 0.0138,
+        "label": null
+      }
+    ]
+  },
+  {
+    "TransactionID": 3438757,
+    "score": 6.938,
+    "probability": 0.999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4054,
+      "labelled_payments": 3453,
+      "known_frauds": 188
+    },
+    "device": null,
+    "score_from_connections": 0.415,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 6.482,
+      "How often the card/address was seen": 0.313,
+      "D columns (time gaps)": 0.219,
+      "Identity columns": 0.211,
+      "Amount": -0.078,
+      "C columns (counts)": 0.044,
+      "Card and address columns": 0.013
+    },
+    "category_effect_top5": [
+      {
+        "column": "card6",
+        "effect": -0.429
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.372
+      },
+      {
+        "column": "id_31",
+        "effect": 0.349
+      },
+      {
+        "column": "id_16",
+        "effect": -0.213
+      },
+      {
+        "column": "hour",
+        "effect": -0.21
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V129",
+        "z_value": -0.068,
+        "importance": 0.7637
+      },
+      {
+        "feature": "card_count",
+        "z_value": 1.005,
+        "importance": 0.7524
+      },
+      {
+        "feature": "V296",
+        "z_value": -0.144,
+        "importance": 0.7196
+      },
+      {
+        "feature": "V261",
+        "z_value": 1.449,
+        "importance": 0.7149
+      },
+      {
+        "feature": "V298",
+        "z_value": -0.152,
+        "importance": 0.7132
+      },
+      {
+        "feature": "V152_missing",
+        "z_value": 1.0,
+        "importance": 0.6976
+      },
+      {
+        "feature": "V5_missing",
+        "z_value": 1.0,
+        "importance": 0.6942
+      },
+      {
+        "feature": "V326",
+        "z_value": -0.064,
+        "importance": 0.6897
+      },
+      {
+        "feature": "V4_missing",
+        "z_value": 1.0,
+        "importance": 0.6771
+      },
+      {
+        "feature": "V6_missing",
+        "z_value": 1.0,
+        "importance": 0.6757
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V200",
+        "z_value": 7.333,
+        "importance": 0.7722
+      },
+      {
+        "feature": "V221",
+        "z_value": 2.664,
+        "importance": -0.5757
+      },
+      {
+        "feature": "V231",
+        "z_value": 5.025,
+        "importance": -0.5435
+      },
+      {
+        "feature": "V257",
+        "z_value": 6.359,
+        "importance": 0.5357
+      },
+      {
+        "feature": "V228",
+        "z_value": 5.751,
+        "importance": -0.5313
+      },
+      {
+        "feature": "V259",
+        "z_value": 3.513,
+        "importance": 0.5119
+      },
+      {
+        "feature": "V217",
+        "z_value": 4.082,
+        "importance": -0.4895
+      },
+      {
+        "feature": "V170",
+        "z_value": 4.776,
+        "importance": -0.4312
+      },
+      {
+        "feature": "V201",
+        "z_value": 6.589,
+        "importance": 0.4082
+      },
+      {
+        "feature": "V258",
+        "z_value": 3.804,
+        "importance": 0.4031
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3314478,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3263608,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3358535,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3280417,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3152964,
+        "mask": 0.0138,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3412541,
+    "score": 6.891,
+    "probability": 0.999,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 890,
+      "labelled_payments": 730,
+      "known_frauds": 100
+    },
+    "device": {
+      "other_payments": 94,
+      "labelled_payments": 79,
+      "known_frauds": 1
+    },
+    "score_from_connections": 0.231,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 5.301,
+      "C columns (counts)": 0.428,
+      "Amount": 0.156,
+      "D columns (time gaps)": 0.055,
+      "Card and address columns": -0.053,
+      "How often the card/address was seen": 0.04,
+      "Identity columns": 0.04
+    },
+    "category_effect_top5": [
+      {
+        "column": "DeviceInfo",
+        "effect": -0.78
+      },
+      {
+        "column": "hour",
+        "effect": -0.583
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.37
+      },
+      {
+        "column": "id_38",
+        "effect": 0.287
+      },
+      {
+        "column": "dayofweek",
+        "effect": 0.234
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "id_01",
+        "z_value": -5.059,
+        "importance": 0.8122
+      },
+      {
+        "feature": "V40",
+        "z_value": 6.513,
+        "importance": 0.8074
+      },
+      {
+        "feature": "V10",
+        "z_value": -0.496,
+        "importance": 0.8059
+      },
+      {
+        "feature": "V33",
+        "z_value": 2.721,
+        "importance": 0.8037
+      },
+      {
+        "feature": "V69",
+        "z_value": -0.667,
+        "importance": 0.8036
+      },
+      {
+        "feature": "V92",
+        "z_value": 2.432,
+        "importance": 0.8034
+      },
+      {
+        "feature": "D4",
+        "z_value": -0.562,
+        "importance": 0.8033
+      },
+      {
+        "feature": "V16",
+        "z_value": 2.673,
+        "importance": 0.8029
+      },
+      {
+        "feature": "V30",
+        "z_value": -0.647,
+        "importance": 0.8027
+      },
+      {
+        "feature": "V11",
+        "z_value": -0.488,
+        "importance": 0.8022
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V47",
+        "z_value": 9.644,
+        "importance": 1.6405
+      },
+      {
+        "feature": "V44",
+        "z_value": 3.51,
+        "importance": 0.8887
+      },
+      {
+        "feature": "V45",
+        "z_value": 3.105,
+        "importance": 0.7518
+      },
+      {
+        "feature": "id_02",
+        "z_value": 1.957,
+        "importance": -0.6253
+      },
+      {
+        "feature": "V51",
+        "z_value": 8.071,
+        "importance": -0.4753
+      },
+      {
+        "feature": "id_01",
+        "z_value": -5.059,
+        "importance": 0.3683
+      },
+      {
+        "feature": "V42",
+        "z_value": 8.538,
+        "importance": -0.3486
+      },
+      {
+        "feature": "V39",
+        "z_value": 7.186,
+        "importance": -0.3337
+      },
+      {
+        "feature": "V46",
+        "z_value": 13.643,
+        "importance": 0.2353
+      },
+      {
+        "feature": "V50",
+        "z_value": 2.633,
+        "importance": -0.2318
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3103857,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 2996315,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3111074,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3133088,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3268150,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3427498,
+    "score": 6.659,
+    "probability": 0.9987,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 960,
+      "labelled_payments": 809,
+      "known_frauds": 146
+    },
+    "device": null,
+    "score_from_connections": 0.47,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 3.711,
+      "Identity columns": 0.387,
+      "D columns (time gaps)": -0.163,
+      "Card and address columns": 0.115,
+      "How often the card/address was seen": 0.082,
+      "C columns (counts)": 0.077,
+      "Amount": -0.002
+    },
+    "category_effect_top5": [
+      {
+        "column": "card4",
+        "effect": 0.646
+      },
+      {
+        "column": "id_31",
+        "effect": 0.313
+      },
+      {
+        "column": "id_38",
+        "effect": 0.243
+      },
+      {
+        "column": "id_15",
+        "effect": 0.152
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.151
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V255",
+        "z_value": -1.932,
+        "importance": 0.6228
+      },
+      {
+        "feature": "V101",
+        "z_value": -0.183,
+        "importance": 0.6203
+      },
+      {
+        "feature": "V258",
+        "z_value": 9.624,
+        "importance": 0.6069
+      },
+      {
+        "feature": "V262",
+        "z_value": 3.143,
+        "importance": 0.6008
+      },
+      {
+        "feature": "V188",
+        "z_value": -3.677,
+        "importance": 0.6008
+      },
+      {
+        "feature": "V243",
+        "z_value": 5.34,
+        "importance": 0.6006
+      },
+      {
+        "feature": "V186",
+        "z_value": 4.39,
+        "importance": 0.5989
+      },
+      {
+        "feature": "V79",
+        "z_value": 5.47,
+        "importance": 0.5987
+      },
+      {
+        "feature": "V34_missing",
+        "z_value": 1.0,
+        "importance": 0.5985
+      },
+      {
+        "feature": "V87",
+        "z_value": 21.322,
+        "importance": 0.5981
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V87",
+        "z_value": 21.322,
+        "importance": 2.551
+      },
+      {
+        "feature": "V77",
+        "z_value": 19.858,
+        "importance": -1.1209
+      },
+      {
+        "feature": "V78",
+        "z_value": 24.845,
+        "importance": -1.0494
+      },
+      {
+        "feature": "V232",
+        "z_value": 18.061,
+        "importance": 0.6523
+      },
+      {
+        "feature": "V86",
+        "z_value": 20.388,
+        "importance": 0.5565
+      },
+      {
+        "feature": "V258",
+        "z_value": 9.624,
+        "importance": 0.5434
+      },
+      {
+        "feature": "V257",
+        "z_value": 14.421,
+        "importance": 0.5392
+      },
+      {
+        "feature": "V178",
+        "z_value": 5.641,
+        "importance": 0.4894
+      },
+      {
+        "feature": "V246",
+        "z_value": 18.234,
+        "importance": 0.4369
+      },
+      {
+        "feature": "V217",
+        "z_value": 10.441,
+        "importance": -0.4072
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3237955,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3181381,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3082251,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3176737,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3112369,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3447927,
+    "score": 6.529,
+    "probability": 0.9985,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1794,
+      "labelled_payments": 1419,
+      "known_frauds": 244
+    },
+    "device": null,
+    "score_from_connections": 0.555,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 3.179,
+      "Card and address columns": 0.319,
+      "Identity columns": 0.175,
+      "How often the card/address was seen": 0.168,
+      "D columns (time gaps)": 0.146,
+      "Amount": 0.07,
+      "C columns (counts)": -0.003
+    },
+    "category_effect_top5": [
+      {
+        "column": "P_emaildomain",
+        "effect": 0.387
+      },
+      {
+        "column": "id_31",
+        "effect": 0.349
+      },
+      {
+        "column": "id_38",
+        "effect": 0.22
+      },
+      {
+        "column": "id_29",
+        "effect": 0.134
+      },
+      {
+        "column": "M4",
+        "effect": 0.128
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V165_missing",
+        "z_value": 1.0,
+        "importance": 0.7659
+      },
+      {
+        "feature": "V1_missing",
+        "z_value": 1.0,
+        "importance": 0.7436
+      },
+      {
+        "feature": "D9",
+        "z_value": -5.306,
+        "importance": 0.7375
+      },
+      {
+        "feature": "V155_missing",
+        "z_value": 1.0,
+        "importance": 0.7339
+      },
+      {
+        "feature": "V329_missing",
+        "z_value": 1.0,
+        "importance": 0.7315
+      },
+      {
+        "feature": "V334_missing",
+        "z_value": 1.0,
+        "importance": 0.7315
+      },
+      {
+        "feature": "V339_missing",
+        "z_value": 1.0,
+        "importance": 0.7163
+      },
+      {
+        "feature": "V160_missing",
+        "z_value": 1.0,
+        "importance": 0.708
+      },
+      {
+        "feature": "V333_missing",
+        "z_value": 1.0,
+        "importance": 0.707
+      },
+      {
+        "feature": "V4_missing",
+        "z_value": 1.0,
+        "importance": 0.7046
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V77",
+        "z_value": 7.853,
+        "importance": -0.8819
+      },
+      {
+        "feature": "V44",
+        "z_value": 7.129,
+        "importance": 0.7802
+      },
+      {
+        "feature": "V87",
+        "z_value": 8.421,
+        "importance": 0.7265
+      },
+      {
+        "feature": "V78",
+        "z_value": 6.075,
+        "importance": -0.6679
+      },
+      {
+        "feature": "V45",
+        "z_value": 6.349,
+        "importance": 0.6067
+      },
+      {
+        "feature": "V38",
+        "z_value": 5.403,
+        "importance": -0.5816
+      },
+      {
+        "feature": "V37",
+        "z_value": 6.4,
+        "importance": -0.5337
+      },
+      {
+        "feature": "V221",
+        "z_value": 2.664,
+        "importance": -0.4431
+      },
+      {
+        "feature": "V231",
+        "z_value": 5.025,
+        "importance": -0.3898
+      },
+      {
+        "feature": "V200",
+        "z_value": 7.333,
+        "importance": 0.3806
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3350221,
+        "mask": 0.0142,
+        "label": 1
+      },
+      {
+        "TransactionID": 3402005,
+        "mask": 0.0141,
+        "label": null
+      },
+      {
+        "TransactionID": 3170428,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3072930,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3279753,
+        "mask": 0.0139,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3434106,
+    "score": 6.38,
+    "probability": 0.9983,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 332,
+      "labelled_payments": 268,
+      "known_frauds": 15
+    },
+    "device": {
+      "other_payments": 4,
+      "labelled_payments": 1,
+      "known_frauds": 0
+    },
+    "score_from_connections": 2.674,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 2.83,
+      "Amount": 1.8,
+      "Identity columns": -0.582,
+      "D columns (time gaps)": 0.159,
+      "C columns (counts)": 0.144,
+      "Card and address columns": 0.126,
+      "How often the card/address was seen": 0.032
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 1.251
+      },
+      {
+        "column": "id_33",
+        "effect": 1.216
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": 0.533
+      },
+      {
+        "column": "card4",
+        "effect": -0.381
+      },
+      {
+        "column": "ProductCD",
+        "effect": -0.369
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V279",
+        "z_value": -0.266,
+        "importance": 0.892
+      },
+      {
+        "feature": "V18_missing",
+        "z_value": 1.0,
+        "importance": 0.8917
+      },
+      {
+        "feature": "V27_missing",
+        "z_value": 1.0,
+        "importance": 0.8836
+      },
+      {
+        "feature": "V286",
+        "z_value": -0.166,
+        "importance": 0.8811
+      },
+      {
+        "feature": "V12_missing",
+        "z_value": 1.0,
+        "importance": 0.8783
+      },
+      {
+        "feature": "V14_missing",
+        "z_value": 1.0,
+        "importance": 0.8773
+      },
+      {
+        "feature": "V314",
+        "z_value": -0.247,
+        "importance": 0.8762
+      },
+      {
+        "feature": "V30_missing",
+        "z_value": 1.0,
+        "importance": 0.8762
+      },
+      {
+        "feature": "addr1",
+        "z_value": -1.726,
+        "importance": 0.8723
+      },
+      {
+        "feature": "V289",
+        "z_value": -0.386,
+        "importance": 0.872
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "TransactionAmt",
+        "z_value": 1.848,
+        "importance": 1.8004
+      },
+      {
+        "feature": "D14_missing",
+        "z_value": 1.0,
+        "importance": -0.2403
+      },
+      {
+        "feature": "id_18_missing",
+        "z_value": 1.0,
+        "importance": -0.2273
+      },
+      {
+        "feature": "V303",
+        "z_value": 1.201,
+        "importance": 0.1836
+      },
+      {
+        "feature": "card2",
+        "z_value": -1.208,
+        "importance": 0.1614
+      },
+      {
+        "feature": "id_19",
+        "z_value": -1.806,
+        "importance": -0.1585
+      },
+      {
+        "feature": "D1",
+        "z_value": -0.584,
+        "importance": 0.1507
+      },
+      {
+        "feature": "id_01",
+        "z_value": 0.821,
+        "importance": -0.1375
+      },
+      {
+        "feature": "D2_missing",
+        "z_value": 1.0,
+        "importance": 0.1365
+      },
+      {
+        "feature": "V91",
+        "z_value": -0.645,
+        "importance": 0.1353
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3035097,
+        "mask": 0.0146,
+        "label": 0
+      },
+      {
+        "TransactionID": 3126688,
+        "mask": 0.0143,
+        "label": 0
+      },
+      {
+        "TransactionID": 3372171,
+        "mask": 0.0143,
+        "label": 0
+      },
+      {
+        "TransactionID": 3320645,
+        "mask": 0.0142,
+        "label": 0
+      },
+      {
+        "TransactionID": 3290020,
+        "mask": 0.0141,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3481125,
+    "score": 6.284,
+    "probability": 0.9981,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 45,
+      "labelled_payments": 36,
+      "known_frauds": 1
+    },
+    "device": {
+      "other_payments": 26,
+      "labelled_payments": 24,
+      "known_frauds": 19
+    },
+    "score_from_connections": 2.628,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 3.737,
+      "D columns (time gaps)": 0.648,
+      "Amount": 0.554,
+      "How often the card/address was seen": 0.244,
+      "Identity columns": 0.231,
+      "C columns (counts)": 0.179,
+      "Card and address columns": -0.021
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.943
+      },
+      {
+        "column": "id_33",
+        "effect": 0.929
+      },
+      {
+        "column": "R_emaildomain",
+        "effect": -0.639
+      },
+      {
+        "column": "card6",
+        "effect": -0.446
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": -0.333
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V49_missing",
+        "z_value": 1.0,
+        "importance": 0.9406
+      },
+      {
+        "feature": "V197",
+        "z_value": 6.026,
+        "importance": 0.9137
+      },
+      {
+        "feature": "V99",
+        "z_value": -0.316,
+        "importance": 0.8883
+      },
+      {
+        "feature": "V33_missing",
+        "z_value": 1.0,
+        "importance": 0.8852
+      },
+      {
+        "feature": "V80_missing",
+        "z_value": 1.0,
+        "importance": 0.8791
+      },
+      {
+        "feature": "V44_missing",
+        "z_value": 1.0,
+        "importance": 0.8726
+      },
+      {
+        "feature": "D5_missing",
+        "z_value": 1.0,
+        "importance": 0.8708
+      },
+      {
+        "feature": "V35_missing",
+        "z_value": 1.0,
+        "importance": 0.8687
+      },
+      {
+        "feature": "V289",
+        "z_value": -0.386,
+        "importance": 0.8686
+      },
+      {
+        "feature": "V90_missing",
+        "z_value": 1.0,
+        "importance": 0.8674
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V189",
+        "z_value": 5.885,
+        "importance": 1.3336
+      },
+      {
+        "feature": "V195",
+        "z_value": 11.586,
+        "importance": -1.2841
+      },
+      {
+        "feature": "V194",
+        "z_value": 6.893,
+        "importance": -0.9141
+      },
+      {
+        "feature": "TransactionAmt",
+        "z_value": 0.677,
+        "importance": 0.5539
+      },
+      {
+        "feature": "V198",
+        "z_value": 8.325,
+        "importance": 0.4197
+      },
+      {
+        "feature": "card_count",
+        "z_value": -1.127,
+        "importance": 0.3708
+      },
+      {
+        "feature": "V188",
+        "z_value": 3.663,
+        "importance": 0.361
+      },
+      {
+        "feature": "V201",
+        "z_value": 3.265,
+        "importance": 0.2802
+      },
+      {
+        "feature": "D8",
+        "z_value": -0.581,
+        "importance": 0.2357
+      },
+      {
+        "feature": "id_20",
+        "z_value": 1.813,
+        "importance": 0.1888
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3235720,
+        "mask": 0.0133,
+        "label": 0
+      },
+      {
+        "TransactionID": 3409075,
+        "mask": 0.013,
+        "label": null
+      },
+      {
+        "TransactionID": 3378070,
+        "mask": 0.013,
+        "label": 0
+      },
+      {
+        "TransactionID": 3362787,
+        "mask": 0.0128,
+        "label": 0
+      },
+      {
+        "TransactionID": 3259995,
+        "mask": 0.0125,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3464830,
+    "score": 5.998,
+    "probability": 0.9975,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1698,
+      "labelled_payments": 1404,
+      "known_frauds": 126
+    },
+    "device": {
+      "other_payments": 34,
+      "labelled_payments": 21,
+      "known_frauds": 2
+    },
+    "score_from_connections": 1.343,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 4.361,
+      "Identity columns": 0.429,
+      "Card and address columns": 0.163,
+      "How often the card/address was seen": 0.162,
+      "Amount": -0.124,
+      "D columns (time gaps)": -0.106,
+      "C columns (counts)": 0.088
+    },
+    "category_effect_top5": [
+      {
+        "column": "card6",
+        "effect": -0.425
+      },
+      {
+        "column": "id_38",
+        "effect": 0.338
+      },
+      {
+        "column": "card4",
+        "effect": 0.32
+      },
+      {
+        "column": "id_29",
+        "effect": 0.205
+      },
+      {
+        "column": "hour",
+        "effect": 0.173
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V262",
+        "z_value": 3.143,
+        "importance": 0.6508
+      },
+      {
+        "feature": "V87",
+        "z_value": 14.872,
+        "importance": 0.6506
+      },
+      {
+        "feature": "D2",
+        "z_value": -1.028,
+        "importance": 0.6505
+      },
+      {
+        "feature": "V2_missing",
+        "z_value": 1.0,
+        "importance": 0.6502
+      },
+      {
+        "feature": "card1_count",
+        "z_value": 0.568,
+        "importance": 0.6502
+      },
+      {
+        "feature": "V153_missing",
+        "z_value": 1.0,
+        "importance": 0.6478
+      },
+      {
+        "feature": "V114",
+        "z_value": -0.085,
+        "importance": 0.6476
+      },
+      {
+        "feature": "id_20",
+        "z_value": -1.541,
+        "importance": 0.6409
+      },
+      {
+        "feature": "V243",
+        "z_value": 1.292,
+        "importance": 0.638
+      },
+      {
+        "feature": "V246",
+        "z_value": 1.952,
+        "importance": 0.6359
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V87",
+        "z_value": 14.872,
+        "importance": 1.9661
+      },
+      {
+        "feature": "V78",
+        "z_value": 7.64,
+        "importance": -1.2351
+      },
+      {
+        "feature": "V83",
+        "z_value": 2.584,
+        "importance": 0.6367
+      },
+      {
+        "feature": "V189",
+        "z_value": 5.885,
+        "importance": 0.6029
+      },
+      {
+        "feature": "V175",
+        "z_value": 3.424,
+        "importance": -0.4597
+      },
+      {
+        "feature": "V62",
+        "z_value": 2.537,
+        "importance": 0.4579
+      },
+      {
+        "feature": "V85",
+        "z_value": 10.228,
+        "importance": 0.3867
+      },
+      {
+        "feature": "V39",
+        "z_value": 4.687,
+        "importance": -0.379
+      },
+      {
+        "feature": "V44",
+        "z_value": 1.7,
+        "importance": 0.3704
+      },
+      {
+        "feature": "V56",
+        "z_value": 3.894,
+        "importance": -0.341
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3389664,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3093124,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3354296,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3428669,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3224975,
+        "mask": 0.0138,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3427809,
+    "score": 5.88,
+    "probability": 0.9972,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1207,
+      "labelled_payments": 1041,
+      "known_frauds": 167
+    },
+    "device": {
+      "other_payments": 190,
+      "labelled_payments": 158,
+      "known_frauds": 129
+    },
+    "score_from_connections": 2.878,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 2.494,
+      "C columns (counts)": 1.621,
+      "D columns (time gaps)": 0.964,
+      "How often the card/address was seen": 0.421,
+      "Amount": -0.344,
+      "Card and address columns": 0.061,
+      "Identity columns": 0.015
+    },
+    "category_effect_top5": [
+      {
+        "column": "P_emaildomain",
+        "effect": -1.144
+      },
+      {
+        "column": "M4",
+        "effect": 0.877
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": 0.56
+      },
+      {
+        "column": "id_38",
+        "effect": 0.5
+      },
+      {
+        "column": "card4",
+        "effect": -0.304
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V25_missing",
+        "z_value": 1.0,
+        "importance": 0.951
+      },
+      {
+        "feature": "V95",
+        "z_value": -0.283,
+        "importance": 0.9436
+      },
+      {
+        "feature": "V18_missing",
+        "z_value": 1.0,
+        "importance": 0.9429
+      },
+      {
+        "feature": "V78_missing",
+        "z_value": 1.0,
+        "importance": 0.9429
+      },
+      {
+        "feature": "V286",
+        "z_value": -0.166,
+        "importance": 0.9414
+      },
+      {
+        "feature": "V184",
+        "z_value": -0.12,
+        "importance": 0.9385
+      },
+      {
+        "feature": "V211",
+        "z_value": -0.067,
+        "importance": 0.938
+      },
+      {
+        "feature": "V31_missing",
+        "z_value": 1.0,
+        "importance": 0.9371
+      },
+      {
+        "feature": "dist1",
+        "z_value": -0.182,
+        "importance": 0.9363
+      },
+      {
+        "feature": "V279",
+        "z_value": -0.266,
+        "importance": 0.9359
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "D6",
+        "z_value": 6.708,
+        "importance": 0.5057
+      },
+      {
+        "feature": "C2",
+        "z_value": 1.704,
+        "importance": 0.4768
+      },
+      {
+        "feature": "addr1_count",
+        "z_value": -2.634,
+        "importance": 0.4403
+      },
+      {
+        "feature": "C1",
+        "z_value": 1.368,
+        "importance": 0.3473
+      },
+      {
+        "feature": "TransactionAmt",
+        "z_value": -0.569,
+        "importance": -0.3435
+      },
+      {
+        "feature": "C11",
+        "z_value": 1.52,
+        "importance": 0.2918
+      },
+      {
+        "feature": "V35",
+        "z_value": -1.34,
+        "importance": 0.2416
+      },
+      {
+        "feature": "C12",
+        "z_value": 1.657,
+        "importance": 0.2001
+      },
+      {
+        "feature": "C8",
+        "z_value": 1.363,
+        "importance": 0.1659
+      },
+      {
+        "feature": "D2_missing",
+        "z_value": 1.0,
+        "importance": 0.161
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3475326,
+        "mask": 0.014,
+        "label": null
+      },
+      {
+        "TransactionID": 3270724,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3415434,
+        "mask": 0.014,
+        "label": null
+      },
+      {
+        "TransactionID": 3321530,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3312869,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3464894,
+    "score": 5.844,
+    "probability": 0.9971,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 2387,
+      "labelled_payments": 2008,
+      "known_frauds": 193
+    },
+    "device": {
+      "other_payments": 233,
+      "labelled_payments": 74,
+      "known_frauds": 0
+    },
+    "score_from_connections": -1.233,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 5.045,
+      "D columns (time gaps)": 0.833,
+      "Identity columns": 0.3,
+      "How often the card/address was seen": 0.245,
+      "Card and address columns": 0.236,
+      "Amount": -0.208,
+      "C columns (counts)": 0.017
+    },
+    "category_effect_top5": [
+      {
+        "column": "DeviceInfo",
+        "effect": -0.945
+      },
+      {
+        "column": "hour",
+        "effect": 0.462
+      },
+      {
+        "column": "card4",
+        "effect": 0.37
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.36
+      },
+      {
+        "column": "id_15",
+        "effect": -0.182
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V179",
+        "z_value": 2.429,
+        "importance": 0.668
+      },
+      {
+        "feature": "V23",
+        "z_value": 8.371,
+        "importance": 0.6179
+      },
+      {
+        "feature": "D1",
+        "z_value": -0.584,
+        "importance": 0.6099
+      },
+      {
+        "feature": "V124",
+        "z_value": 5.626,
+        "importance": 0.6056
+      },
+      {
+        "feature": "V85",
+        "z_value": 2.301,
+        "importance": 0.5964
+      },
+      {
+        "feature": "V246",
+        "z_value": 3.987,
+        "importance": 0.5962
+      },
+      {
+        "feature": "V24",
+        "z_value": 6.766,
+        "importance": 0.5951
+      },
+      {
+        "feature": "V232",
+        "z_value": 3.524,
+        "importance": 0.5938
+      },
+      {
+        "feature": "V86",
+        "z_value": 4.992,
+        "importance": 0.5822
+      },
+      {
+        "feature": "V62",
+        "z_value": 0.247,
+        "importance": 0.5806
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V117",
+        "z_value": 36.503,
+        "importance": 0.9122
+      },
+      {
+        "feature": "V114",
+        "z_value": 9.589,
+        "importance": -0.8673
+      },
+      {
+        "feature": "V123",
+        "z_value": 8.741,
+        "importance": 0.8233
+      },
+      {
+        "feature": "V44",
+        "z_value": 7.129,
+        "importance": 0.7882
+      },
+      {
+        "feature": "V45",
+        "z_value": 6.349,
+        "importance": 0.6815
+      },
+      {
+        "feature": "V118",
+        "z_value": 26.771,
+        "importance": -0.6225
+      },
+      {
+        "feature": "id_02",
+        "z_value": 3.436,
+        "importance": -0.6196
+      },
+      {
+        "feature": "V125",
+        "z_value": 7.556,
+        "importance": 0.5532
+      },
+      {
+        "feature": "V116",
+        "z_value": 7.811,
+        "importance": -0.4983
+      },
+      {
+        "feature": "V231",
+        "z_value": 5.025,
+        "importance": -0.4887
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3060034,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3340637,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3409095,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3460206,
+        "mask": 0.0139,
+        "label": null
+      },
+      {
+        "TransactionID": 3355708,
+        "mask": 0.0139,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3475655,
+    "score": 5.704,
+    "probability": 0.9967,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 960,
+      "labelled_payments": 809,
+      "known_frauds": 146
+    },
+    "device": null,
+    "score_from_connections": 1.208,
+    "feature_group_effect": {
+      "Identity columns": 3.224,
+      "V columns (anonymous Vesta features)": 2.695,
+      "Card and address columns": 1.386,
+      "D columns (time gaps)": 1.089,
+      "How often the card/address was seen": 0.483,
+      "Amount": -0.414,
+      "C columns (counts)": 0.184
+    },
+    "category_effect_top5": [
+      {
+        "column": "M4",
+        "effect": 0.95
+      },
+      {
+        "column": "id_29",
+        "effect": 0.73
+      },
+      {
+        "column": "id_15",
+        "effect": -0.7
+      },
+      {
+        "column": "card4",
+        "effect": 0.627
+      },
+      {
+        "column": "id_31",
+        "effect": 0.619
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V293",
+        "z_value": -0.16,
+        "importance": 0.761
+      },
+      {
+        "feature": "V175",
+        "z_value": -0.13,
+        "importance": 0.7584
+      },
+      {
+        "feature": "V164",
+        "z_value": -0.142,
+        "importance": 0.7576
+      },
+      {
+        "feature": "V30",
+        "z_value": -0.647,
+        "importance": 0.7453
+      },
+      {
+        "feature": "V91",
+        "z_value": -0.645,
+        "importance": 0.7396
+      },
+      {
+        "feature": "V69",
+        "z_value": -0.667,
+        "importance": 0.7372
+      },
+      {
+        "feature": "V55",
+        "z_value": -0.157,
+        "importance": 0.7369
+      },
+      {
+        "feature": "V17",
+        "z_value": 2.527,
+        "importance": 0.729
+      },
+      {
+        "feature": "V29",
+        "z_value": -0.667,
+        "importance": 0.7276
+      },
+      {
+        "feature": "C14",
+        "z_value": -0.16,
+        "importance": 0.7268
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "id_04",
+        "z_value": -51.123,
+        "importance": 1.7968
+      },
+      {
+        "feature": "id_17",
+        "z_value": 2.96,
+        "importance": 1.0625
+      },
+      {
+        "feature": "card3",
+        "z_value": 2.739,
+        "importance": 1.0211
+      },
+      {
+        "feature": "id_10",
+        "z_value": -12.862,
+        "importance": 0.7361
+      },
+      {
+        "feature": "V50",
+        "z_value": 2.633,
+        "importance": -0.6239
+      },
+      {
+        "feature": "V33",
+        "z_value": 2.721,
+        "importance": 0.6168
+      },
+      {
+        "feature": "V39",
+        "z_value": 2.188,
+        "importance": -0.5848
+      },
+      {
+        "feature": "V34",
+        "z_value": 2.582,
+        "importance": 0.5663
+      },
+      {
+        "feature": "V85",
+        "z_value": 2.301,
+        "importance": 0.5405
+      },
+      {
+        "feature": "V15",
+        "z_value": 2.785,
+        "importance": 0.4962
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3175212,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3153007,
+        "mask": 0.0141,
+        "label": 0
+      },
+      {
+        "TransactionID": 3201462,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3074422,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3077160,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  },
+  {
+    "TransactionID": 3461470,
+    "score": 5.34,
+    "probability": 0.9952,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 20,
+      "labelled_payments": 20,
+      "known_frauds": 5
+    },
+    "device": {
+      "other_payments": 35,
+      "labelled_payments": 27,
+      "known_frauds": 16
+    },
+    "score_from_connections": 2.565,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 1.386,
+      "How often the card/address was seen": -0.699,
+      "D columns (time gaps)": 0.376,
+      "C columns (counts)": 0.312,
+      "Identity columns": -0.286,
+      "Card and address columns": 0.201,
+      "Amount": -0.104
+    },
+    "category_effect_top5": [
+      {
+        "column": "P_emaildomain",
+        "effect": 0.684
+      },
+      {
+        "column": "M4",
+        "effect": 0.478
+      },
+      {
+        "column": "id_38",
+        "effect": 0.409
+      },
+      {
+        "column": "card4",
+        "effect": 0.353
+      },
+      {
+        "column": "id_15",
+        "effect": -0.223
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "card3",
+        "z_value": 2.739,
+        "importance": 0.8122
+      },
+      {
+        "feature": "id_17",
+        "z_value": 2.96,
+        "importance": 0.7878
+      },
+      {
+        "feature": "V189",
+        "z_value": 8.839,
+        "importance": 0.7861
+      },
+      {
+        "feature": "V18",
+        "z_value": 2.468,
+        "importance": 0.7684
+      },
+      {
+        "feature": "V33",
+        "z_value": 2.721,
+        "importance": 0.7509
+      },
+      {
+        "feature": "card2",
+        "z_value": -0.622,
+        "importance": 0.7465
+      },
+      {
+        "feature": "V34",
+        "z_value": 5.52,
+        "importance": 0.7442
+      },
+      {
+        "feature": "V201",
+        "z_value": 8.25,
+        "importance": 0.7373
+      },
+      {
+        "feature": "D2_missing",
+        "z_value": 1.0,
+        "importance": 0.7316
+      },
+      {
+        "feature": "V208",
+        "z_value": 1.589,
+        "importance": 0.7233
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V189",
+        "z_value": 8.839,
+        "importance": 1.5386
+      },
+      {
+        "feature": "V175",
+        "z_value": 3.424,
+        "importance": -0.6932
+      },
+      {
+        "feature": "V24",
+        "z_value": 6.766,
+        "importance": -0.6906
+      },
+      {
+        "feature": "V174",
+        "z_value": 5.001,
+        "importance": -0.6844
+      },
+      {
+        "feature": "card1_count",
+        "z_value": -1.417,
+        "importance": -0.6157
+      },
+      {
+        "feature": "V201",
+        "z_value": 8.25,
+        "importance": 0.5755
+      },
+      {
+        "feature": "V26",
+        "z_value": 5.236,
+        "importance": -0.4329
+      },
+      {
+        "feature": "id_02",
+        "z_value": 2.001,
+        "importance": -0.4253
+      },
+      {
+        "feature": "V32",
+        "z_value": 5.278,
+        "importance": -0.3802
+      },
+      {
+        "feature": "V23",
+        "z_value": 4.122,
+        "importance": -0.2947
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3225284,
+        "mask": 0.0122,
+        "label": 0
+      },
+      {
+        "TransactionID": 3202837,
+        "mask": 0.0117,
+        "label": 0
+      },
+      {
+        "TransactionID": 3294953,
+        "mask": 0.0115,
+        "label": 0
+      },
+      {
+        "TransactionID": 3102670,
+        "mask": 0.0114,
+        "label": 1
+      },
+      {
+        "TransactionID": 3317062,
+        "mask": 0.0112,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3479213,
+    "score": 5.306,
+    "probability": 0.9951,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 4054,
+      "labelled_payments": 3453,
+      "known_frauds": 188
+    },
+    "device": null,
+    "score_from_connections": 0.188,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 1.888,
+      "Identity columns": 0.743,
+      "How often the card/address was seen": 0.232,
+      "D columns (time gaps)": 0.231,
+      "Card and address columns": 0.215,
+      "Amount": -0.046,
+      "C columns (counts)": 0.019
+    },
+    "category_effect_top5": [
+      {
+        "column": "id_31",
+        "effect": 0.381
+      },
+      {
+        "column": "card6",
+        "effect": -0.374
+      },
+      {
+        "column": "DeviceInfo",
+        "effect": -0.336
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.196
+      },
+      {
+        "column": "card4",
+        "effect": 0.189
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V15",
+        "z_value": 2.785,
+        "importance": 0.6822
+      },
+      {
+        "feature": "V10_missing",
+        "z_value": 1.0,
+        "importance": 0.666
+      },
+      {
+        "feature": "V81",
+        "z_value": 2.066,
+        "importance": 0.6649
+      },
+      {
+        "feature": "V86",
+        "z_value": 2.426,
+        "importance": 0.659
+      },
+      {
+        "feature": "V284",
+        "z_value": -0.257,
+        "importance": 0.6522
+      },
+      {
+        "feature": "V242",
+        "z_value": 3.162,
+        "importance": 0.6471
+      },
+      {
+        "feature": "V148_missing",
+        "z_value": 1.0,
+        "importance": 0.6402
+      },
+      {
+        "feature": "V261",
+        "z_value": 1.449,
+        "importance": 0.6385
+      },
+      {
+        "feature": "V79",
+        "z_value": 2.561,
+        "importance": 0.6365
+      },
+      {
+        "feature": "V130",
+        "z_value": -0.288,
+        "importance": 0.6355
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V47",
+        "z_value": 9.644,
+        "importance": 0.6109
+      },
+      {
+        "feature": "V189",
+        "z_value": 8.839,
+        "importance": 0.5646
+      },
+      {
+        "feature": "V258",
+        "z_value": 4.774,
+        "importance": 0.3593
+      },
+      {
+        "feature": "id_03",
+        "z_value": 14.608,
+        "importance": 0.3293
+      },
+      {
+        "feature": "V201",
+        "z_value": 8.25,
+        "importance": 0.3165
+      },
+      {
+        "feature": "V44",
+        "z_value": 3.51,
+        "importance": 0.285
+      },
+      {
+        "feature": "V45",
+        "z_value": 3.105,
+        "importance": 0.263
+      },
+      {
+        "feature": "V200",
+        "z_value": 3.642,
+        "importance": 0.2301
+      },
+      {
+        "feature": "V232",
+        "z_value": 6.25,
+        "importance": 0.2179
+      },
+      {
+        "feature": "V262",
+        "z_value": 3.143,
+        "importance": 0.2078
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3241169,
+        "mask": 0.0139,
+        "label": 0
+      },
+      {
+        "TransactionID": 3332804,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3227403,
+        "mask": 0.0138,
+        "label": 0
+      },
+      {
+        "TransactionID": 3443656,
+        "mask": 0.0138,
+        "label": null
+      },
+      {
+        "TransactionID": 3363249,
+        "mask": 0.0138,
+        "label": 1
+      }
+    ]
+  },
+  {
+    "TransactionID": 3424145,
+    "score": 5.184,
+    "probability": 0.9944,
+    "neighbourhood_matches_full_graph": true,
+    "card": {
+      "other_payments": 1039,
+      "labelled_payments": 905,
+      "known_frauds": 33
+    },
+    "device": null,
+    "score_from_connections": 0.382,
+    "feature_group_effect": {
+      "V columns (anonymous Vesta features)": 3.718,
+      "Card and address columns": 0.875,
+      "D columns (time gaps)": 0.386,
+      "Amount": 0.242,
+      "Identity columns": -0.21,
+      "How often the card/address was seen": 0.193,
+      "C columns (counts)": 0.113
+    },
+    "category_effect_top5": [
+      {
+        "column": "card6",
+        "effect": -0.605
+      },
+      {
+        "column": "id_31",
+        "effect": 0.569
+      },
+      {
+        "column": "P_emaildomain",
+        "effect": 0.521
+      },
+      {
+        "column": "id_38",
+        "effect": 0.353
+      },
+      {
+        "column": "id_16",
+        "effect": 0.342
+      }
+    ],
+    "top_features_gnnexplainer": [
+      {
+        "feature": "V261",
+        "z_value": 4.414,
+        "importance": 0.6668
+      },
+      {
+        "feature": "V262",
+        "z_value": 9.446,
+        "importance": 0.6413
+      },
+      {
+        "feature": "id_04_missing",
+        "z_value": 1.0,
+        "importance": 0.6177
+      },
+      {
+        "feature": "V145_missing",
+        "z_value": 1.0,
+        "importance": 0.5971
+      },
+      {
+        "feature": "V79",
+        "z_value": 2.561,
+        "importance": 0.5942
+      },
+      {
+        "feature": "V330_missing",
+        "z_value": 1.0,
+        "importance": 0.5932
+      },
+      {
+        "feature": "V286",
+        "z_value": -0.166,
+        "importance": 0.591
+      },
+      {
+        "feature": "V90",
+        "z_value": -0.668,
+        "importance": 0.5901
+      },
+      {
+        "feature": "V208",
+        "z_value": 8.06,
+        "importance": 0.5886
+      },
+      {
+        "feature": "V243",
+        "z_value": 5.34,
+        "importance": 0.588
+      }
+    ],
+    "top_features_leave_one_out": [
+      {
+        "feature": "V189",
+        "z_value": 11.792,
+        "importance": 1.899
+      },
+      {
+        "feature": "V175",
+        "z_value": 6.977,
+        "importance": -1.6006
+      },
+      {
+        "feature": "V174",
+        "z_value": 10.156,
+        "importance": -1.4893
+      },
+      {
+        "feature": "V262",
+        "z_value": 9.446,
+        "importance": 1.1782
+      },
+      {
+        "feature": "V272",
+        "z_value": 6.722,
+        "importance": 1.037
+      },
+      {
+        "feature": "V271",
+        "z_value": 6.412,
+        "importance": 0.664
+      },
+      {
+        "feature": "V258",
+        "z_value": 3.804,
+        "importance": 0.6408
+      },
+      {
+        "feature": "V243",
+        "z_value": 5.34,
+        "importance": 0.593
+      },
+      {
+        "feature": "V270",
+        "z_value": 7.126,
+        "importance": -0.5821
+      },
+      {
+        "feature": "V259",
+        "z_value": 1.759,
+        "importance": 0.5617
+      }
+    ],
+    "top_card_links_gnnexplainer": [
+      {
+        "TransactionID": 3082775,
+        "mask": 0.0141,
+        "label": 1
+      },
+      {
+        "TransactionID": 3377904,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3034031,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3224953,
+        "mask": 0.014,
+        "label": 0
+      },
+      {
+        "TransactionID": 3179663,
+        "mask": 0.014,
+        "label": 0
+      }
+    ]
+  }
+]
