@@ -1,0 +1,2 @@
+model,PR-AUC,ROC-AUC,recall@prec50,recall@prec80
+GNN (card + device graph),0.442,0.8619,0.408,0.2505

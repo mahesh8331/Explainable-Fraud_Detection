@@ -13,7 +13,7 @@ PATIENCE = 6        # stop if no improvement after this many checks
 LR = 0.01
 
 USE_GRAPH = True   # False = control experiment (graph switched off)
-TAG = "gnn" if USE_GRAPH else "gnn_nograph"
+TAG = ("gnn" if USE_GRAPH else "gnn_nograph") + "_emb"
 
 torch.manual_seed(42)
 
@@ -27,7 +27,9 @@ y_train = g_train["transaction"].y
 pos_weight = ((y_train == 0).sum() / (y_train == 1).sum()).float()
 print("Fraud weight:", round(float(pos_weight), 1))
 
-model = FraudGNN(in_dim=g_train["transaction"].x.shape[1], use_graph=USE_GRAPH)
+model = FraudGNN(in_dim=g_train["transaction"].x.shape[1],
+                 cat_sizes=g_train["transaction"].cat_sizes.tolist(),
+                 use_graph=USE_GRAPH)
 optimizer = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=1e-5)
 
 val_mask = g_eval["transaction"].val_mask
